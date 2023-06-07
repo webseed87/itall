@@ -1,0 +1,34 @@
+﻿@charset "utf-8";
+#gap{position:relative; width: 100%; min-width: 1200px;   font-size: 18px;}
+/*탑 이미지 영역*/
+#gap .topImg{ padding: 50px 0; position:relative; width: 100%; background:url(../img/wlogo.png); background-position: center; text-align: center; height: 800px;}
+#gap .topImg .img {
+margin-top: 30px; animation: left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
+#gap .topImg  h1{
+    animation: text 3s both;
+display: block;
+}
+#gap .facility{width: 100%;  height: 320px; position: relative;}
+#gap .container{position: relative; width: 1200px; margin: 0 auto;}
+#gap .facility .text{width: 70%; float: left;}
+#gap .facility .subimg{width: 30%; float: right;}
+#gap .facility p{font-size: 18px; margin-top: 80px;}
+#gap .facility h2{display: block;  font-family: 'SpoqaB'; font-size: 36px; margin-top: 20px;} 
+#gap .facility h3{display: block; font-size: 20px; font-weight: normal; margin-top: 30px;} 
+#gap .facility .sup{ font-size:10px;  font-weight: normal; margin-top: 30px; color: #999;} 
+#gap .gab1{ background-color: #FFF7EC;}
+#gap .gab2{ background-color: #E1F6F9; } 
+#gap .gab3{ background-color: #FFF3F3; } 
+#gap .gab4{ background-color: #E3E8ED;}
+#gap .gab5{ background-color: #F9F9F9; } 
+#gap .gab6{ background-color: #f3f1f7; } 
+#gap  .fontblue{color:#31b0c8;}
+.callcenterWarp{margin-top: 0px !important;}
+@keyframes left {
+    0% {transform: rotateX(180deg) translateX(-300px) skewX(-30deg);opacity: 0;}
+    100% {transform: rotateX(0deg) translateX(0) skewX(0deg);opacity: 1;}
+}
+@keyframes text {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

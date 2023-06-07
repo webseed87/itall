@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* 게시판 리스트 */
+#contentsWarp{position:relative; width: 100%;}
+#contentsWarp .boardList{ position:relative; width: 1100px; margin: 0 auto;  margin-top: 80px;}
+#contentsWarp .boardList .searchBox {position: relative; width: 1100px;}
+#contentsWarp .boardList .searchBox ul{overflow: hidden; display: block;  margin-bottom: 20px; }
+#contentsWarp .boardList .searchBox li:first-child{float: left; margin-right: 10px; font-size:14px; font-weight: 100;}
+#contentsWarp .boardList .searchBox li{float: right; margin-right: 10px; font-size:14px; font-weight: 100; padding:5px 0;}
+#contentsWarp .boardList .searchBox li:last-child{margin-right: 0;}
+#contentsWarp .boardList .searchBox .searchText{font-size: 14px; text-align: left; color:#999; }
+#contentsWarp .boardList .searchBox .ssBox {display: inline-block; vertical-align: middle; position: relative;}
+#contentsWarp .boardList .searchBox .btnBox .searcbtn{position: absolute; top:12px; right: 20px; font-size: 18px;}
+#contentsWarp .boardList .searchBox div{margin-left: 4px; }
+#contentsWarp .boardList .searchBox .selectbox {border-bottom: 1px solid #999; height: 30px; font-size: 14px; line-height: 30px;}
+#contentsWarp .boardList .searchBox .inputtext {border-bottom: 1px solid #999; border-right: none; border-top: none; border-left: none; height: 30px; margin-left: 5px; padding: 0 10px; width: 200px;}  
+/* 게시판 테이블 */
+#contentsWarp .boardList .boradTable{width: 100%;}
+#contentsWarp .boardList .boradTable .left{text-align: left;}
+#contentsWarp .boardList .boradTit {width: 100%; text-align: left; line-height: 40px; height: 40px; font-size:16px; font-weight: bold; float: left; border-bottom: 2px solid #05141f; }
+#contentsWarp .boardList .boradTit_more{ display:block ; text-align: right; border:1px solid #ccc; line-height: 28px; padding: 0 5px; font-size:11px; margin-top: 5px; height: 28px; font-weight: bold; float: right;}
+#contentsWarp .boardList .boradTable tr th{border-top: 1px solid #333333; border-bottom: 1px solid #ccc; padding: 10px; color: #333;}
+#contentsWarp .boardList .boradTable tr td{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 8px 10px; text-align: center;}
+#contentsWarp .boardList .boradTable tr td .fa-folder-open-o{font-size: 14px; font-weight: bold;}
+#contentsWarp .boardList .boradTable tr.parent td.standard{padding-left: 30px;}
+#contentsWarp .boardList .boradTable tr.parent td.standard{position: relative;}
+#contentsWarp .boardList .boradTable tr.parent td.standard i.fa-plus-square,
+#contentsWarp .boardList .boradTable tr.parent td.standard i.fa-minus-square{position: absolute; top: 50%; left: 4px; margin-top: -12px; padding: 4px; font-size: 16px; cursor: pointer;}
+#contentsWarp .boardList .boradTable tr.child td.standard{padding-left: 45px;}
+/* 버튼 */
+#contentsWarp .boardList .btnWarp{position: relative; width: 100%;}
+#contentsWarp .boardList .btnWarp .writebtn{background-color: #E0462E; color:#fff; position:relative; border-radius: 5px; float: right; margin-top: 20px; padding: 10px 20px;}
+#contentsWarp .boardList .btnWarp::after{content: ""; display: block; clear: both;}
+/* 페이지 */
+#contentsWarp .boardList .pagination{font-size: 0px; text-align: center; margin-top: 15px; position: relative;}
+#contentsWarp .boardList .pagination *{display: inline-block; vertical-align:middle; }
+#contentsWarp .boardList .pagination li,.pagination button{margin: 0px 0 0 3px;  }
+#contentsWarp .boardList .pagination li a{width:30px; height:30px; color:#666; font-size:13px; line-height:30px; text-decoration: none; border: 1px solid #b9b9b9; border-radius: 5px; background:#fff; text-align: center; outline: none;}
+#contentsWarp .boardList .pagination li a:hover{color: #ffffff; background: #9fa0a0; border: 1px solid #9fa0a0; font-weight: bold;}
+#contentsWarp .boardList .pagination li.active a{color: #fff; text-decoration: underline; background-color: #292C37; font-weight: bold; }
+#contentsWarp .boardList .pagination li.active a:hover{background:#ffffff;color: #666; font-weight: bold; cursor: default;}
+#contentsWarp .boardList .pagination .prev{margin-right: 10px;}
+#contentsWarp .boardList .pagination .next{margin-left: 10px;}
+#contentsWarp .boardList.pagination .first a, .pagination .prev a, .pagination .next a, .pagination .last a{color: #424242;}
+/* 게시판 글쓰기 */
+#contentsWarp .boardWirte {position: relative; width: 1200px; margin: 0 auto;}
+#contentsWarp .boardWirte .formTable{width: 1100px; border-top: 2px solid #333; margin: 50px; text-align: left; font-size: 14px;}
+#contentsWarp .boardWirte .formTable tr {border-bottom: 1px solid #ccc; height: 60px;}
+#contentsWarp .boardWirte .formTable tr th{ padding: 10px; color: #333; font-size: 16px; }
+#contentsWarp .boardWirte .formTable tr td{ padding: 8px 10px; text-align: left; }
+#contentsWarp .boardWirte input {accent-color: #E0462E;}
+#contentsWarp .boardWirte .formTable .selectbox{ position: relative; width: 60%; border: 1px solid #bbb; border-radius: 10px; z-index: 1;  font-size: 14px; line-height: 14px; background: #fff; display: block; height: 40px;} 
+#contentsWarp .boardWirte .formTable .selectbox::before {  position: absolute; top: 14px; right: 10px; font-family: 'Font Awesome 6 free'; font-weight: 900; content: '\f107'; color: #bbb;}
+#contentsWarp .boardWirte .formTable .selectbox label { position: absolute; top: 0px; left: 0px; padding: 0px 30px 0 10px; color: #424242; height: 40px; line-height: 40px; z-index: -1; width: 100%; text-align: left; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;  }
+#contentsWarp .boardWirte .formTable .selectbox select { color:#333; width: 100%; height: 40px; line-height: normal; border: 0; filter:alpha(opacity=0); -webkit-appearance: none; -moz-appearance: none; appearance: none; cursor: pointer; padding: 0px 30px 0 10px; }
+#contentsWarp .boardWirte .formTable input[type="text"]{ position: relative; width: 98%; padding: 5px 10px; border: 1px solid #bbb; border-radius: 10px; z-index: 1;  font-size: 14px; line-height: 14px; background: #fff; display: block; height: 30px;} 
+#contentsWarp .boardWirte .formTable .form-control { position: relative; width: 99%; padding: 5px; border: 1px solid #bbb; border-radius: 10px; z-index: 1;  font-size: 14px; line-height: 14px; background: #fff; display: block;} 
+#contentsWarp .boardWirte .formTable input:disabled{background-color: #efefef;}
+#contentsWarp .boardWirte .btnWarp .btnsubmit{background-color: #E0462E; color:#fff; padding: 10px 20px; font-size: 16px; border-radius: 5px; margin-top: 20px;}
+#contentsWarp .boardWirte .btnWarp .btnlist{background-color: #fff; color:#333; padding: 10px 20px; margin-left: 15px; font-size: 16px; border-radius: 5px; margin-top: 20px; border: 1px solid #ccc;}
+#contentsWarp .boardWirte .btnWarp {display: flex; justify-content: center;}
+/* 게시판 페이지 뷰 */
+#contentsWarp .boardView{position: relative; width: 1200px; margin: 0 auto;}
+#contentsWarp .boardView .view{border-top: 2px solid #333;  width: 1100px; margin: 50px; }
+#contentsWarp .boardView .view li{border-bottom: 1px solid #ccc; padding: 15px 0;}
+#contentsWarp .boardView  .btnWarp{width: 1100px; position: relative; margin: 0 auto;}
+#contentsWarp .boardView  .btnWarp .btnpre{border: 1px solid #ccc; border-radius: 5px; padding: 10px 15px; float: left;}
+#contentsWarp .boardView  .btnWarp .btnnext{border: 1px solid #ccc; border-radius: 5px; padding: 10px 15px; margin-left: 15px; float:left;}
+#contentsWarp .boardView  .btnWarp .btnlist{border: 1px solid #ccc; border-radius: 5px; padding: 10px 15px; margin-left: 15px; float: right;}
+#contentsWarp .boardView  .btnWarp::after{content: ""; display: block; clear: both;}

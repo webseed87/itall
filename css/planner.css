@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+/* 시기별 운영계획 */
+#plannerWarp{position:relative; width: 100%; margin: 0 auto; background-color: #f2edea; padding: 80px 0; background-image: url(../img/plannerbg.png); background-repeat: no-repeat; background-position: top center;}
+#plannerWarp .top {width: 1200px; position: relative; margin: 0 auto; text-align: center;  display: flex;  justify-content: center;}
+#plannerWarp .top .topyear{font-size: 36px; background-color: #34332f; border-radius: 50%; height: 100px; width: 100px; color: #fff; font-size: 16px; display: flex; align-items: center; justify-content: center;} 
+#plannerWarp .toptitle{width: 1200px; position: relative; margin: 0 auto; margin-bottom: 60px; margin-top: 40px;} 
+#plannerWarp .toptitle .red{color: #b11623;}
+#plannerWarp .toptitle .img{position: absolute; width: 200px; height: auto; right:70px; top: -70px;}
+#plannerWarp .toptitle h1{font-size: 56px; font-family:  'SpoqaB'; text-align: center; display: block; }
+#plannerWarp .toptitle p{font-size: 28px; line-height: 2.5rem; font-family:  'SpoqaB'; text-align: center; margin-top: 40px;}
+#plannerWarp .toptitle p.sub{font-size: 9px; line-height: 0.9rem; text-align: center; font-family:  'SpoqaR';}
+
+/* 테이블 */
+#plannerWarp .planListwarp{border: 2px solid #b11623; width: 1200px;  margin: 0 auto;  border-radius: 30px; background-color: #fff;  }
+#plannerWarp .planListwarp .plannericon{position: absolute; top:40px; right:420px; z-index: 1000;}
+#plannerWarp .planListwarp h2{font-size: 28px;  display: block; text-align: center; background-color: #b11623; color: #fff; height: 70px; line-height: 70px; border-top-left-radius: 26px; border-top-right-radius: 26px;}
+#plannerWarp .planList {max-width:1120px; width: 100%; position: relative; margin: 0 auto; margin-top: 40px; margin-bottom: 40px; border-collapse: separate;
+    border-spacing: 0 10px;}
+#plannerWarp .planList tr {background-color: #f9f9f9;}
+#plannerWarp .planList tr th{background-color: #fff; text-align: center;  padding: 10px; color: #333; background-color: #eeeeee; }
+#plannerWarp .planList tr td.titlen{border:1px solid #b11623; color:#b11623 ; background-color: #fff;}
+#plannerWarp .planList tr td.title{border:1px solid #333; color:#333 ; background-color: #fff;}
+#plannerWarp .planList tr td{ padding: 8px 10px; text-align: center;  }
+#plannerWarp .planList tr td .fa-folder-open-o{font-size: 14px; font-weight: bold;}
+#plannerWarp .planList tr td.red{ background: linear-gradient(to right, #b11623, #EA384D); color: #fff; border-radius: 10px;}
+#plannerWarp .planList tr td.green{ background: linear-gradient(to right, #2db288, #eda200); color: #fff; border-radius: 10px;}
+#plannerWarp .planList tr td.sky{ background: linear-gradient(to right, #36D1DC, #5B86E5); color: #fff; border-radius: 10px;  }
+#plannerWarp .planList tr td.blue{ background: linear-gradient(to right, #43cea2, #185a9d); color: #fff; border-radius: 10px;  }
+#plannerWarp .planList tr td.pupple{ background: linear-gradient(to right, #DA4453, #89216B); color: #fff; border-radius: 10px;  }
+#plannerWarp .planList .ing{background-color: #b11623; color: #fff; padding: 4px 8px; position: absolute; left: -24px; font-size: 12px;}
+.callcenterWarp {margin-top: 0px !important;}
+

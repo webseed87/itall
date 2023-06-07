@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* 로그인 페이지*/
+#loginWarp .topMenu { width: 100%;  display: flex; border-bottom: 1px solid #ccc; justify-content: center; padding: 40px 0;  }
+#loginWarp .topMenu .logo{ background-image: url(../img/itallstlogo.png); width: 154px; height: 24px;background-repeat: no-repeat;  }
+#loginWarp .topMenu .logo .h1logo{font-size: 0; text-indent: -99999;}
+#loginWarp .subTitle {position: relative; margin: 0 auto; width: 650px; margin-top: 80px;  }
+#loginWarp .subTitle .sublogo{ background-image: url(../img/sunenglogo_b.png); width: 208px; height: 24px; background-repeat: no-repeat; position: relative; margin: 0 auto;}
+#loginWarp .subTitle p{display: block; color:#666666; text-align: center; font-size: 14px; line-height: 30px;}
+#loginWarp .loginform{ position: relative; margin: 0 auto; width: 600px; margin-top: 50px;}
+#loginWarp .loginform .wrapinput{ float: left; width: 400px;}
+#loginWarp .loginform .wrapinput .input {font-size: 14px; margin-bottom: 10px; line-height: 1.8; color: #666666; border:1px solid #ccc; display: block; border-radius: 10px; background: #fff; height: 50px; width: 400px; padding: 0 10px 0 20px;}
+#loginWarp .loginform .containerbtn{ float: right; width: 150px;}
+#loginWarp .loginform .containerbtn .loginformbtn { width: 150px; text-align: center; background:#E0462E; border-radius: 10px; color:#fff; padding: 10px; font-size:16px;  border: none; height: 110px;} 
+#loginWarp .loginform .lost{ position: relative; margin: 0 auto; width: 600px; padding-top: 20px; clear: both;}
+#loginWarp .loginform .lost .serach {float: right;}
+#loginWarp .loginform .lost .serach a{ font-size: 14px; color:#666; position:relative; }
+#loginWarp .loginform .lost .serach a::after{content: "|"; margin: 0 4px;}
+#loginWarp .loginform .lost .serach a:last-child:after{content: ""; margin: 0 4px;}
+#loginWarp input {accent-color: #E0462E; font-size: 14px;}
+#loginWarp .loginform .lost .lostid{font-size: 14px; color: #333;}
+#loginWarp .loginform .naverlogin{float: left; width: 270px ; margin-top: 30px;}
+#loginWarp .loginform .kakaologin{float:right; width: 270px ; margin-top: 30px; }
+#loginWarp .copyright { position: relative; margin: 0 auto; font-size: 13px; color:#666;  width: 600px; margin-top: 50px; text-align: center; padding-top: 40px; clear: both;}
+#loginWarp .copyright a{ font-size: 13px; color:#666;  }
+#loginWarp .copyright a::after{content: "|"; margin: 0 4px;}
+
+/* 아이디 찾기 페이지*/
+#idFind{width: 100%; position: relative;}
+#idFind .topMenu { width: 100%;  display: flex; border-bottom: 1px solid #ccc; justify-content: center; padding: 40px 0;  }
+#idFind .topMenu .logo{ background-image: url(../img/itallstlogo.png); width: 154px; height: 24px;background-repeat: no-repeat;  }
+#idFind .topMenu .logo .h1logo{font-size: 0; text-indent: -99999;}
+#idFind .subTitle {position: relative; margin: 0 auto; width: 650px; margin-top: 80px;  }
+#idFind .subTitle .sublogo{  position: relative; margin: 0 auto; width: 100%;  text-align: center;}
+#idFind .subTitle .sublogo h2{font-size: 24px; }
+#idFind .subTitle p{display: block; color:#666666; text-align: center; font-size: 14px; line-height: 30px;}
+#idFind .psfindform{ position: relative; margin: 0 auto; width: 500px; margin-top: 50px;}
+#idFind .psfindform .wrapinput{ float: left; width: 500px;}
+#idFind .psfindform .wrapinput .input {font-size: 14px; margin-bottom: 10px; line-height: 1.8; color: #666666; border:1px solid #ccc; display: block; border-radius: 10px; background: #fff; height: 50px; width: 470px; padding: 0 10px 0 20px;}
+#idFind .psfindform .containerbtn{ float: right; width: 500px;}
+#idFind .psfindform .containerbtn .psfindform { width: 500px; text-align: center; background:#E0462E; border-radius: 10px; color:#fff; padding: 10px; font-size:16px;  border: none; height: 50px;} 
+#idFind input {accent-color: #E0462E; font-size: 14px;}
+
+/* 비밀번호 찾기 페이지*/
+#pswordFind{width: 100%; position: relative;}
+#pswordFind .topMenu { width: 100%;  display: flex; border-bottom: 1px solid #ccc; justify-content: center; padding: 40px 0;  }
+#pswordFind .topMenu .logo{ background-image: url(../img/itallstlogo.png); width: 154px; height: 24px;background-repeat: no-repeat;  }
+#pswordFind .topMenu .logo .h1logo{font-size: 0; text-indent: -99999;}
+#pswordFind .subTitle {position: relative; margin: 0 auto; width: 650px; margin-top: 80px;  }
+#pswordFind .subTitle .sublogo{  position: relative; margin: 0 auto; width: 100%;  text-align: center;}
+#pswordFind .subTitle .sublogo h2{font-size: 24px; }
+#pswordFind .subTitle p{display: block; color:#666666; text-align: center; font-size: 14px; line-height: 30px;}
+#pswordFind .psfindform{ position: relative; margin: 0 auto; width: 500px; margin-top: 50px;}
+#pswordFind .psfindform .wrapinput{ float: left; width: 500px;}
+#pswordFind .psfindform .wrapinput .input {font-size: 14px; margin-bottom: 10px; line-height: 1.8; color: #666666; border:1px solid #ccc; display: block; border-radius: 10px; background: #fff; height: 50px; width: 470px; padding: 0 10px 0 20px;}
+#pswordFind .psfindform .containerbtn{ float: right; width: 500px;}
+#pswordFind .psfindform .containerbtn .psfindform { width: 500px; text-align: center; background:#E0462E; border-radius: 10px; color:#fff; padding: 10px; font-size:16px;  border: none; height: 50px;} 
+#pswordFind input {accent-color: #E0462E; font-size: 14px;}

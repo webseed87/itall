@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Testing some Donutty Options</title>
+
+    
+        <style>
+            .point7Warp {width: 100%; display: flex; background-color: #f4f4f4; }
+            .point7Contents {width: 1200px; margin: 0 auto;}
+            .point7Contents .boxwarp{width: 1200px; background-color: #fff; border-radius: 30px; padding: 40px 30px; height: 500px;}
+            .point7Contents .boxwarp .textimg{width: 700px; float: left; }
+            .point7Contents .boxwarp .chart{width: 500px; float: left;  position: relative;}
+            .point7Contents .boxwarp  .chart .imgtext{position: absolute; top:160px; right: 130px; z-index: 111;}
+            .circle-chart__circle {
+
+transform: rotate(-90deg); 
+transform-origin: center; 
+}
+
+.circle-chart__circle.active{animation: circle-chart-fill 2s reverse;  }
+
+
+@keyframes circle-chart-fill {
+to { stroke-dasharray: 0 100; }
+}
+
+.grid {
+position: relative;
+margin: 0 auto;
+width: 1200px;
+
+}
+
+@media (min-width: 31em) {
+.grid {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+        </style>
+    </head>
+    <body>
+     
+        <div class="point7Warp">
+            <div class="point7Contents">
+                <img src="point7_230406_01.png">
+                <div class="boxwarp">
+                    <div class="textimg"><img src="point7_230406_02.png"></div>
+            <div class="chart">
+                <div class="imgtext"><img src="point7_230406_03.png"></div>
+                <div class="grid">
+            
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#e47d0e" />
+                      <stop offset="100%" stop-color="#f3d350" />
+                    </linearGradient>
+                  
+              <svg class="circle-chart" viewbox="0 0 40 40" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+                <circle class="circle-chart__background" stroke="#efefef" stroke-width="4" fill="none" cx="20" cy="20" r="15.91549431" />
+                <circle class="circle-chart__circle" stroke="#f3d350" stroke-width="3" stroke-dasharray="90" stroke-linecap="round" fill="none" cx="20" cy="20" r="15.91549431" />
+                <g class="circle-chart__info">
+                 
+                </g>
+              </svg>
+            </div>
+
+        </div>
+        <p>*2023년 3월 9일 수능성적표 확인 인원 기준 (2022학년도 수능, 2023학년도 수능성적표 취합된 인원 기준) / *95% 수능성적 상승 = 백분위 상승 인원 기준</p>
+
+    </div>
+       
+        
+</div>
+</div>
+
+<script>
+    // 시소
+
+    var isScrolling = false;
+
+    window.addEventListener("scroll", throttleScroll, false);
+
+    function throttleScroll(e) {
+        if (isScrolling == false) {
+            window.requestAnimationFrame(function () {
+                scrolling(e);
+                isScrolling = false;
+            });
+        }
+        isScrolling = true;
+    }
+
+    document.addEventListener("DOMContentLoaded",
+        scrolling,
+        false);
+
+
+    var firstBox = document.querySelector(".circle-chart__circle");
+
+
+    function scrolling(e) {
+
+        if (isPartiallyVisible(firstBox)) {
+            firstBox.classList.add("active");
+
+
+        } else {
+            firstBox.classList.remove("active");
+        }
+
+
+    }
+
+    function isPartiallyVisible(el) {
+        var elementBoundary = el.getBoundingClientRect();
+
+        var top = elementBoundary.top;
+        var bottom = elementBoundary.bottom;
+        var height = elementBoundary.height;
+
+        return ((top + height >= 0) &&
+            (height + window.innerHeight >= bottom));
+    }
+
+    function isFullyVisible(el) {
+        var elementBoundary = el.getBoundingClientRect();
+
+        var top = elementBoundary.top;
+        var bottom = elementBoundary.bottom;
+
+        return ((top >= 0) && (bottom <= window.innerHeight));
+    }
+</script>
+</body>
+</html>

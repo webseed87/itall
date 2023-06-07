@@ -1,0 +1,37 @@
+@charset "utf-8";
+/*상단 섬네일 영역 */
+.eventWrap { width: 100%; height: auto; margin: 0 auto; max-width: 1200px; padding-top: 80px ; position: relative;}
+.eventWrap .sumnail{width: 1200px; position: relative; margin-top: 80px; margin: 0 auto; }
+.eventWrap .sumnail h4{font-size: 36px; color: #333; font-family: 'SpoqaB'; text-align: center; display: block;}
+.eventWrap .sumnail ul {margin:50px 10px 0px 0px;}
+.eventWrap .sumnail ul li{box-shadow:1px 3px 6px #ccc;  width: 380px;  border-radius:30px; display: inline-block; margin-right: 20px;}
+.eventWrap .sumnail ul li h5{font-size: 18px; margin-top: 20px; display: block; padding: 0 30px;}
+.eventWrap .sumnail ul li p{font-size: 15px; margin: 20px 0; padding: 0 30px;}
+.eventWrap .sumnail ul li:last-child{margin-right: 0;}
+/*게시판 리스트 영역 */
+.eventWrap .eventmenu{position:relative;  margin-top: 80px;  margin-bottom: 40px;}
+.eventWrap .eventmenu .list{overflow:hidden;}
+.eventWrap .eventmenu .list li{float:left; border-top: 1px solid #ccc; border-right: 1px solid #ccc;  padding: 10px; width: 33.33%;  height: 50px; text-align: center;  }
+.eventWrap .eventmenu .list li:first-child{border-left: 1px solid #ccc;}
+.eventWrap .eventmenu .list li:last-child{float:left;  }
+.eventWrap .eventmenu .list li.is_on .btn{font-weight:bold;  color:#fff;}
+.eventWrap .eventmenu .list li:first-child.is_on{ background-color:#E0462E; }
+.eventWrap .eventmenu .list li:last-child.is_on{ background-color:#E0462E; }
+.eventWrap .eventmenu .list li.is_on{ background-color:#E0462E; border-top-left-radius: none;}
+.eventWrap .eventmenu .list .btn{font-size:16px; }
+.eventWrap .eventmenu .contarea {position: relative;  }
+.eventWrap .eventmenu .contarea .cont{display:none; position:relative;    background:#fff;   width:1200px;  border-top: 1px solid #ccc; }
+.eventWrap .eventmenu .contarea .cont .category {position: relative; border-bottom: 1px solid #ccc; height: 50px; line-height: 50px; padding: 0 10px;}
+.eventWrap .eventmenu .contarea .cont .category a{position: relative; color: #333;}
+.eventWrap .eventmenu .contarea .cont .category a.on{color: #E0462E;}
+.eventWrap .eventmenu .contarea .cont .category a::after{content: "|"; margin: 0 10px; color: #666;}
+.eventWrap .eventmenu .contarea .cont .category a:last-child::after{content: ""; }
+.eventWrap .eventmenu .contarea .cont .gallerylist ul{position: relative; }
+.eventWrap .eventmenu .contarea .cont .gallerylist ul li{border-bottom: 1px solid #ccc; width: 1200px; display: flex; }
+.eventWrap .eventmenu .contarea .cont .gallerylist ul li .img {width: 400px; margin: 40px 0;}
+.eventWrap .eventmenu .contarea .cont .gallerylist ul li .text{   margin-top: 40px; width:740px; padding: 0 20px;}
+.eventWrap .eventmenu .contarea .cont .gallerylist ul li .text .tag {color: #E0462E; font-size: 16px; line-height: 2rem;}
+.eventWrap .eventmenu .contarea .cont .gallerylist ul li .text .title { font-size: 18px; line-height: 3rem;}
+.eventWrap .eventmenu .contarea .cont .gallerylist ul li .text .content{font-size: 14px; line-height: 1.6rem;}
+.eventWrap .eventmenu .contarea .cont .gallerylist ul li .text .day{font-size: 14px; margin-top: 10px;}
+.eventWrap .eventmenu .contarea .cont::after { content: ""; display: table;clear: both;}

@@ -1,0 +1,59 @@
+﻿#allsaveWrap { width: 100%; height: auto; margin: 0 auto; min-width:1200px;  position: relative;}
+#allsaveWrap .topimg{width: 100%; background-image: url(../img/allsavebg.png); background-position: center bottom; background-repeat: no-repeat; }
+#allsaveWrap .topimg .container{width: 1200px;  height: 800px; margin: 0 auto; }
+#allsaveWrap .topimg .container h3{font-size: 30px; display: block; padding-top: 150px ; font-family:  'SpoqaR';} 
+#allsaveWrap .topimg .container h1{font-size: 72px; margin-top: 20px; font-family:  'SpoqaB'; display: block;}
+#allsaveWrap .topimg .container .signature{background-image: url(../img/signaturebg.png); position: relative; top:-20px; font-family:  'SpoqaR'; padding: 6px 10px 6px 38px; font-size: 24px; color: #fff; width: 163px; height: 51px; display: inline-block;}
+#allsaveWrap .topimg .container h2{font-size:48px; margin-top: 20px; font-family:  'SpoqaB'; display: block;}
+#allsaveWrap .topimg .container .puple{color:#646EEC;}
+#allsaveWrap .topimg .container p{font-size: 18px; line-height: 30px; margin-top: 100px;}
+#allsaveWrap .savepick{width: 100%; height: 100px; position: relative; background-color: #0E0F30;}
+#allsaveWrap  .container{width: 1200px; margin: 0 auto;}
+#allsaveWrap .savepick  p{font-size: 24px; color:#fff; line-height: 100px; display: inline-block;}
+#allsaveWrap .savepick  .border{display: inline-block; padding: 0 20px;}
+#allsaveWrap .savepick  .savebutton{ border: 1px solid #fff; position: relative; color:#fff; margin: 15px 0; font-size: 20px; padding: 20px; float: right;}
+#allsaveWrap .savepick .savebutton:hover{background-color: #fff; color: #0E0F30;} 
+#allsaveWrap .progarm{background-color: #f9f9f9; width: 100%; padding: 80px 0;}
+#allsaveWrap .progarm h2{font-size: 36px; display: block; text-align: center; font-family:  'SpoqaB';}
+#allsaveWrap .progarm p{font-size: 18px;  margin-top: 10px; text-align: center;}
+#allsaveWrap .progarm .box {display: flex; background-color: #fff; border-radius: 30px; margin-top: 50px; padding: 50px 60px;}
+#allsaveWrap .progarm .box p{display: inline-block; text-align: left; width: 820px; margin-left:60px; font-size: 16px; line-height: 30px;}
+#allsaveWrap .progarm .box .giftimg{position: relative; width: 230px; height: 230px; top: 50px; }
+#allsaveWrap .progarm .box .block{width: 8px; display: inline-block;}
+#allsaveWrap .pass{position: relative; background-color: #f9f9f9; width: 100%; padding: 80px 0; position: relative; background-image: url(../img/passbg.png); height: 868px; background-position: center bottom; background-repeat: no-repeat; }
+#allsaveWrap .pass h2{font-size: 36px; display: block; text-align: center; font-family:  'SpoqaB';}
+#allsaveWrap .pass p{font-size: 18px;  margin-top: 20px; text-align: center; margin-bottom: 80px;}
+#allsaveWrap .pass .box {position: relative; background-color: #727AD5; border-radius: 30px; padding: 50px; margin: 0 auto; text-align: center;}
+#allsaveWrap .pass .box .ml50{margin-left: 50px;}
+#allsaveWrap .pass .box .coupon{display: flex; margin-top: 30px; justify-content: center;}
+#allsaveWrap .pass .box .moreview{display: flex; justify-content: center;  color: #727AD5;  margin-top: 30px;}
+#allsaveWrap .pass .box .moreview button{background-color: #fff; display: flex; justify-content: center;  color: #3D47C7; border-radius: 30px; padding: 20px 50px; font-size: 24px; margin-top: 30px;}
+#allsaveWrap .itemWarp{display: flex; background-color: #f9f9f9; width: 100%; padding: 80px 0; margin: 0 auto;}
+#allsaveWrap .itemWarp .item {width: 280px;  border: 2px solid #fff; text-align: center; height: 380px; float: left; margin-right: 20px; background-color: #fff; border-radius: 30px; }
+#allsaveWrap .itemWarp .item h3{background-image: url(../img/bubble.png); font-weight: 500; margin-top:-20px; margin-left: 20px;  width: 240px; height: 106px; display: block; color:#fff; background-repeat: no-repeat; padding: 16px 20px; font-size: 20px;}
+#allsaveWrap .itemWarp .item:hover{border: 2px solid #E0462E;}
+#allsaveWrap .itemWarp .item:hover .moreview{border-radius: 20px; opacity: 1; padding: 10px 20px; font-size: 18px;  margin-top: 14px; background-color: #E0462E; color: #fff;}
+#allsaveWrap .itemWarp .item .moreview{border-radius: 20px; opacity: 0; padding: 10px 20px; font-size: 18px;  margin-top: 14px; background-color: #E0462E; color: #fff;}
+#allsaveWrap .itemWarp .item .text{font-size: 18px; line-height: 22px; margin-top: 10px;}
+#allsaveWrap .itemWarp .item .sale{font-size: 20px; line-height: 22px; font-family:  'SpoqaB'; margin-top: 20px; text-decoration: underline;}
+#allsaveWrap .itemWarp .item h4{color: #E0462E; font-size: 30px; font-family:  'SpoqaB'; display: block; margin-top: 10px;padding: 30px; font-size: 30px; }
+#allsaveWrap .itemWarp .item h4.two{color: #E0462E; font-size: 30px; font-family:  'SpoqaB'; display: block; margin-top: 10px;padding: 10px; font-size: 30px; }
+#allsaveWrap .itemWarp .item .tag{font-size: 14px; line-height: 20px; color: #555; }
+/*레이어 팝업 디자인*/
+.popWrap{position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.7); font-size:0; text-align:center; z-index: 1000000;}
+.popWrap:after{display:inline-block; height:100%; vertical-align:middle; content:'';}
+.popWrap .popInner{display:inline-block; padding-bottom:30px; border-radius: 20px; background:#fff; width:940px; height:auto; vertical-align:middle; font-size:15px; position: relative;}
+.popWrap .popInner h3{font-size: 24px; border-top-left-radius: 20px; text-align: left;  border-top-right-radius: 20px; padding: 15px 0 10px 25px; display: block; background-color: #E0462E; color: #fff;}
+.popWrap .popInner h2{font-size: 30px;  text-align: left;  padding: 15px 0 10px 25px; display: block; color: #000;}
+
+.popWrap .popInner > div{background-color: #f9f9f9;  width: 910px;  overflow:auto; padding: 15px; position: relative; margin: 0 auto; text-align: left; font-size: 12px;}
+.popWrap .popInner .shot{ background-color: #fff; width: 910px;   overflow:auto; padding:5px 0 0 0; position: relative; margin: 0 auto; text-align: left; font-size: 13px;}
+.popWrap .popInner p{text-align: left; padding: 0 20px 20px 26px ;   margin-bottom: 20px; font-size: 18px; border-bottom: 1px solid #ccc;}
+.popWrap .popInner .shot .title{background-color: #333;  border-radius: 20px;  text-align: center; padding:  5px; float: left; font-size: 17px; width: 14%; margin-right: 2%; color:#fff}
+.popWrap .popInner .shot .content{background-color: #fff;   font-size: 15px; padding:  10px 5px;  width:84%; float: right;}
+.popWrap .popInner .btnClose{position: absolute; top: 16px; right: 30px; color:#fff; font-size: 24px; clear: both;}
+.popWrap .popInner .confrim{width: 600px; text-align: center; background:#E0462E; border-bottom-left-radius: 10px; clear: both; border-bottom-right-radius: 10px; color:#fff; padding: 10px; font-size:16px;  border: none; height: 50px;}
+.popWrap .height60{height: 60px;}
+.popWrap .block{width: 8px; display: inline-block;}
+.popWrap .popInner .sup{font-size: 12px; overflow-wrap: break-word; padding: 10px 20px 0px 20px; border-bottom: none;}
+.dropdown_gnb img{vertical-align: top;}

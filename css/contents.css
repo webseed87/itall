@@ -1,0 +1,77 @@
+@charset "utf-8";
+#contentsWarp{position:relative; width: 100%;}
+/*잇올 패스*/
+#contentsWarp .itallpass{ position:relative; width: 1200px; margin: 0 auto;  margin-top: 80px;}
+#contentsWarp .itallpass h3{font-size: 30px; font-family: 'SpoqaB'; text-align: left;}
+#contentsWarp .itallpass ul {margin-top: 50px;}
+#contentsWarp .itallpass ul li{width: 23.5%; float: left; border-radius:20px; border: 1px solid #ccc; margin-left: 10px; height: 354px; padding:100px  20px;}
+#contentsWarp .itallpass ul li .txt1 {margin: 0 auto; text-align: center; display: block;}
+#contentsWarp .itallpass ul li .txt2 {margin: 0 auto; text-align: center; display: none; } 
+#contentsWarp .itallpass ul li h4{color:#333; font-size: 30px;    font-family: 'SpoqaB'; }
+#contentsWarp .itallpass ul li p{ font-size: 18px; margin-top: 50px;  text-align: center; }
+#contentsWarp .itallpass ul li.on .txt1{text-align: left; display: none; }
+#contentsWarp .itallpass ul li.on .txt2{text-align: left; display: block; margin-top: 100px;}
+#contentsWarp .itallpass ul li.on h4{color:#fff; font-size: 30px;   font-family: 'SpoqaB';  }
+#contentsWarp .itallpass ul li.on p{color:#818AAB; font-size: 18px; margin-top: 20px; text-align: left;   }
+#contentsWarp .itallpass ul li.on{width: 50%; float: left; transition: transform 1s, opacity 1s, width 0.5s; border-radius:20px; border: 1px solid #ccc; margin-left: 10px; height: 354px; background-color: #292C37; padding:10px  40px; }
+/*국어 빅4*/
+#contentsWarp .big{ position:relative; width: 1200px; margin: 0 auto;  padding-top: 80px; clear: both;}
+#contentsWarp .big h3{font-size: 30px;  font-family: 'SpoqaB'; text-align: left; display: block;}
+#contentsWarp .big ul li{width: 285px;  float: left; margin-right: 20px; margin-top: 50px; text-align: center; }
+#contentsWarp .big ul li p{text-align: center; font-size: 18px; line-height: 3rem;}
+#contentsWarp .big ul li > div{ border: 1px solid #ccc; border-radius: 20px; padding: 50px 0;}
+#contentsWarp .big ul li:last-child{width: 285px; float: left; margin-right: 0px;}
+.big::after{content: ""; display: block; clear: both;}
+/*독점콘텐츠/자체제작/제휴할인*/
+#contentsWarp .contents{ position:relative; width: 100%; background-color: #F9F9F9;  margin:0 auto; padding: 50px 0;   margin-top: 80px; overflow: hidden; }
+#contentsWarp .contents .bookwrap {animation: contents 40s  infinite;  width: 3978px;  z-index: 3; display: flex;    flex-wrap:nowrap; }
+#contentsWarp .contents .bookwrap .clone {  opacity:1;}
+#contentsWarp .contents h3{font-size: 30px; font-family: 'SpoqaB';  text-align: center; display: block; width: 100%;}
+#contentsWarp .contents .bookwrap ul{ display: flex; position: relative; margin: 50px 0;}
+#contentsWarp .contents .bookwrap ul li{  width: 221px;  height: 258px;}  
+@keyframes contents  {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
+/*실전바이오리듬 영역*/
+#contentsWarp .bio{position:relative; width: 1200px; margin: 0 auto;  padding-top: 80px ; }
+#contentsWarp .bio .img{width: 500px; float: left; }
+#contentsWarp .bio .img h3{font-size: 30px; font-family: 'SpoqaB'; text-align: left; line-height: 3rem;}
+#contentsWarp .bio .img p{font-size: 24px; text-align: left; line-height: 2rem;}
+#contentsWarp .bio .img .woman{margin-top:120px;}
+#contentsWarp .bio .content{width:650px; float: left; margin-left: 50px;}
+#contentsWarp .bio .content ul li{border-bottom: 1px solid #ccc; padding: 50px 20px 50px 20px;}
+#contentsWarp .bio .content ul li:first-child{border-bottom: 1px solid #ccc; padding: 0px 20px 50px 20px;}
+#contentsWarp .bio .content ul li:last-child{border-bottom:none; padding: 50px 20px 0px 20px;}
+#contentsWarp .bio .content ul li h4{font-size: 24px; font-family: 'SpoqaB'; line-height: 3rem; border-bottom: 5px solid #FFDCDC; box-shadow: inset 0 -10px 0 #FFDCDC;}
+#contentsWarp .bio .content ul li p{font-size: 16px; line-height: 2rem;}
+.bio::after{content: ""; display: block; clear: both;}
+/*일정 및 커리큘럼 영역*/
+#contentsWarp .curriculum{position:relative; width: 100%; margin: 0 auto;  background-color: #EEEEEE; padding: 80px 0;  margin-top: 80px;}
+#contentsWarp .curriculumbox{background-color: #fff; border-radius: 30px; padding: 20px; width: 1200px; margin: 0 auto; }
+#contentsWarp .curriculumbox ul{margin: 30px 0; display: flex; align-items: center;}
+#contentsWarp .curriculumbox ul li{width: 24%; display: inline-block;  text-align: center; position: relative;}
+#contentsWarp .curriculumbox ul li::after{content: ""; position: absolute; top: 50%; right: 0px;  display: block; width: 1px; height: 53px;  background: #ccc; transform: translateY(-50%);} 
+#contentsWarp .curriculumbox ul li:last-child:after{content: ""; position: absolute; top: 50%; right: 0px;  display: block; width: 0px; height: 53px;  background: #ccc; transform: translateY(-50%);} 
+#contentsWarp .curriculumbox ul li h4{font-size: 30px; font-family: 'SpoqaB';  }
+#contentsWarp .curriculumbox ul li p.red{font-size: 24px ; color: #E0462E;}
+#contentsWarp .curriculumbox ul li p{font-size: 16px;}
+#contentsWarp .schedulebox{background-color: #fff; border-radius: 30px; padding: 40px; width: 1200px; margin: 0 auto; margin-top: 30px; text-align: center;}
+#contentsWarp .schedulebox h4{font-size: 30px; font-family: 'SpoqaB'; text-align: center; line-height: 3rem; }
+#contentsWarp .schedulebox .gridTable{width: 60%; font-size: 1rem; margin: 0 auto; margin-top: 50px; }
+#contentsWarp .schedulebox .gridTable tr th{border: 1px solid #ccc; padding: 10px; color: #333; background-color: #F1F4F9;}
+#contentsWarp .schedulebox .gridTable tr td{border: 1px solid #ccc; padding: 8px 10px; text-align: center;}
+#contentsWarp .schedulebox .gridTable tr td:first-child{background-color: #F1F4F9;}
+#contentsWarp .schedulebox .gridTable tr.parent td.standard{padding-left: 30px;}
+#contentsWarp .schedulebox .gridTable tr.parent td.standard{position: relative;}
+#contentsWarp .schedulebox .gridTable tr.parent td.standard i.fa-plus-square,
+#contentsWarp .schedulebox .gridTable tr.parent td.standard i.fa-minus-square{position: absolute; top: 50%; left: 4px; margin-top: -12px; padding: 4px; font-size: 16px; cursor: pointer;}
+#contentsWarp .schedulebox .gridTable tr.child td.standard{padding-left: 45px;}
+#contentsWarp .schedulebox .gridTable tr td.addPop{position: relative; padding-right: 30px;}
+#contentsWarp .schedulebox .gridTable tr td.addPop i.fa-plus-circle{position: absolute; top: 50%; right: 4px; margin-top: -12px; padding: 4px; font-size: 16px; cursor: pointer;}
+.curriculum::after{content: ""; display: block; clear: both;}
+.callcenterWarp{margin-top: 0 !important;}

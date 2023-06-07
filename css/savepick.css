@@ -1,0 +1,95 @@
+﻿@charset "utf-8";
+#saveformwarp{max-width: 500px; width: 100%;   overflow-y: auto; border-radius: 10px; height: 720px; padding: 30px; background-color: #DADCEF; position: relative; left: 50%; transform: translate(-50%, 0%);}
+#savepickWrap .allsave{position: relative; text-align: center; }
+#savepickWrap .allsave .icon{width: 400px; height: auto; margin-top: 50px;}
+#savepickWrap .allsave h1{font-size: 30px; margin-top: 40px; display: block;}
+#savepickWrap .allsave p{font-size: 15px; margin-top: 40px;}
+#savepickWrap .allsave button.serachnext{background-color: #fff; margin-top: 40px; padding: 15px 30px;  font-size: 20px; border-radius: 20px; color: #3D47C7;}
+#savepickWrap .allsave button.serachnext:hover{background-color: #3D47C7; color: #fff;}
+#savepickWrap .saveChat { position: relative; display: none; overflow: hidden;} 
+#savepickWrap .saveChat.active{display: block;}
+#savepickWrap.active{display: block;}
+#savepickWrap .saveChat h2{font-size: 18px; margin-top: 40px; display: block; text-align: center;}
+#savepickWrap .saveChat .quzi{background-color:#3D47C7; margin-top: 30px; display: inline-block; color: #fff; text-align: left; border-radius: 20px; padding: 10px 20px;}
+#savepickWrap .saveChat .quzi2{background-color:#3D47C7; margin-top: 10px; display: inline-block; color: #fff; text-align: left; border-radius: 20px; padding: 10px 20px;}
+#savepickWrap .saveChat .quzi3{background-color:#fff; margin-top: 10px; display: inline-block; color: #333; text-align: left; border-radius: 20px; padding: 10px 20px;}
+#savepickWrap .saveChat .radio{margin-top: 20px; text-align: right; }
+#saveformwarp input[type=radio] {display: none;  clear: both;}
+#saveformwarp input[type=radio] + label{
+display: inline-block;
+margin:5px 5px 0px 0;
+padding: 8px 10px;
+background-color: #f5f5f5;
+border-radius: 14px;
+color: #666;
+text-align: center;
+}
+#savepickWrap .saveChat .conform{background-color:#f9f9f9; display: block; width: 120px;  margin-top: 10px; margin-left: 10px; padding: 10px 30px;  height: 40px; float: right; font-size: 15px; border-radius: 10px; color: #3D47C7;}
+#savepickWrap .saveChat .conform:hover{background-color: #3D47C7; color: #fff;}
+#savepickWrap .saveChat select{border-radius: 10px; background-color: #f9f9f9; width: 150px; border-radius: 10px; height: 40px; margin-top: 10px; padding:5px 10px; font-size: 14px; margin-left: 5px;}
+.question4 { position: relative; display: none; overflow: hidden;} 
+.question4.active{display: block;}
+.msg{  opacity:0; transform:translate3d(0,20px,0); transition-property:opacity,transform; transition:all .5s; }
+.msg.up { transform:translateZ(0); opacity:1; }
+#savepickWrap .condition{position: relative; display: none; overflow: hidden;}
+#savepickWrap .condition.active{display: block;}
+#savepickWrap .condition h2{font-size: 19px; margin-top: 40px; color: #333; display: block; text-align: center;}
+#savepickWrap .condition .rebox{margin-top: 20px; padding: 20px; background-color: #fff; border-radius: 20px;}
+#savepickWrap .condition .rebox p{font-size: 15px; line-height: 30px;}
+#savepickWrap .condition .rebox p:first-child{font-size: 16px; margin-bottom: 10px; font-weight: bold; line-height: 30px;}
+#savepickWrap .condition .quzi{background-color:#3D47C7; margin-top: 30px; display: inline-block; color: #fff; text-align: left; border-radius: 20px; padding: 10px 20px;}
+#savepickWrap .condition .radio{margin-top: 20px; text-align: right; }
+
+#savepickWrap .sale{position: relative; display: none; overflow: hidden; text-align: center;}
+#savepickWrap .sale.active{display: block;}
+#savepickWrap .sale h2{font-size: 18px; margin-top: 40px; display: block; text-align: center;}
+#savepickWrap .sale .itemwarp{width: 100%; display: flex; border-radius: 10px;}
+#savepickWrap .sale .item li{margin-top: 10px; background-color:#3D47C7;  color: #fff; border-radius: 10px;}
+#savepickWrap .sale .item {width: 100%; margin-top: 20px; border-radius: 10px; text-align: center;  float: left; margin-right: 16px; }
+#savepickWrap .sale .item h3{ display: block; font-weight: 500; width: 100%; display: block; color:#fff; background-repeat: no-repeat; padding: 10px; font-size: 18px; text-align: left; }
+#savepickWrap .sale .item .sale{font-size: 16px; line-height: 22px;  margin-top: 10px; text-decoration: underline;}
+#savepickWrap .sale .item h4{color: #E0462E; font-size: 20px; display: block; margin-top: 10px;padding: 10px; font-size: 20px; }
+#savepickWrap .sale .item .moreveiw{position:relative; top:2px; right:10px; float:right;}
+#savepickWrap .sale .item h4.two{color: #E0462E; font-size: 20px;  display: block; margin-top: 10px;padding: 10px; font-size: 20px; }
+#savepickWrap .sale .item .tag{font-size: 12px; line-height: 20px; color: #555; }
+#savepickWrap .sale .item:last-child{margin-right: 0;}
+#savepickWrap .sale .text{font-size: 16px; margin-top:20px;}
+#savepickWrap .sale::after{content: "" ; display: block; clear: both;}
+#savepickWrap  .subbox{display: block ; text-align: left; width: 100%; background-color: #fff; color: #555; font-size: 12px; border-radius: 10px; margin-top: 20px; padding: 20px;}
+#savepickWrap .sale .gotoonline{background-color: #fff; margin-top: 20px; text-align: center; padding: 15px 30px;  font-size: 20px; border-radius: 20px; color: #3D47C7;}
+
+/*더보기 디자인*/
+.moreWrap .popInner{display:inline-block;  border-bottom-left-radius: 10px; word-break: keep-all;  border-bottom-right-radius: 10px;  padding:10px; background:#fff; border-top: 1px solid #ccc;  color:#333; width:100%; height:auto; vertical-align:middle; font-size:15px; position: relative;}
+.moreWrap .popInner h3{font-size: 24px; border-top-left-radius: 20px; text-align: left;  border-top-right-radius: 20px; padding: 15px 0 10px 25px; display: block;  color: #333;}
+.moreWrap .popInner h5.top{font-size: 16px;  text-align: left;  padding: 0 5px; display: block; color: #333;}
+
+.moreWrap .popInner > div{background-color: #f9f9f9;  width: 100%;  overflow:auto; padding: 5px; position: relative; margin: 0 auto; text-align: left; font-size: 12px;}
+.moreWrap .popInner .shot{ background-color: #fff; width:100%;   overflow:auto; position: relative; margin: 0 auto; text-align: left; font-size: 13px;}
+.moreWrap .popInner p{text-align: left; padding: 5px ; word-break: keep-all;  margin-bottom: 10px; font-size: 14px; border-bottom: 1px solid #ccc;}
+.moreWrap .popInner .shot .title{background-color: #333;  border-radius: 10px;  text-align: center; padding:  2px; float: left; font-size: 13px; width: 20%; color:#fff}
+.moreWrap .popInner .shot .content{background-color: #fff; word-break: keep-all; color: #333; line-height: 16px;  font-size: 12px; padding:   5px;  width:80%; float: right;}
+.moreWrap .popInner .btnClose{position: absolute; top: 16px; right: 30px; color:#fff; font-size: 24px; clear: both;}
+.moreWrap .popInner .confrim{width: 600px; text-align: center; background:#E0462E; border-bottom-left-radius: 10px; clear: both; border-bottom-right-radius: 10px; color:#fff; padding: 10px; font-size:16px;  border: none; height: 50px;}
+.moreWrap .height60{height: 60px;}
+.moreWrap .block{width: 8px; display: inline-block;}
+.moreWrap .popInner .sup{font-size: 11px; word-break: keep-all; padding: 10px 20px 0px 20px; border-bottom: none;}
+.dropdown_gnb img{vertical-align: top;}
+
+#saveformwarp input[type=radio]:checked + label{
+background-color: #3D47C7; color: #fff;}
+#saveformwarp::-webkit-scrollbar {
+    width: 6px;
+  }
+  #saveformwarp::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  #saveformwarp::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #ccc;
+  }
+  #saveformwarp::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+  }
+
+.btnClose{position: fixed; z-index: 1000; top: 20px; right: 20px; color:#333; font-size: 24px; }

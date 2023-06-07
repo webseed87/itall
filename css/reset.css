@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@import './Spoqa.css';
+@import './SUIT.css';
+::selection {background-color: #b11623 ; color:#fff;}
+html{ scroll-behavior:smooth;}
+body,html {background:transparent; width: 100%; height: 100%; font-size:14px; color: #333; font-family:  'SpoqaR','Malgun Gothic','맑은고딕','malgun gothic','helvetica','Apple SD Gothic Neo', '돋움',dotum,sans-serif;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, article, aside, hgroup, header, footer, figure, figcaption, nav, section {margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline; background: transparent; box-sizing: border-box; font-weight: normal;}
+strong{margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline; background: transparent; box-sizing: border-box;}
+article, aside, header, footer, figure, figcaption, nav, section, div, p, ul, ol, li, dl, dt, dd {display: block;}
+body {padding: 0; margin: 0; box-sizing: border-box; word-break:break-all; -ms-word-break:break-all;  font-weight: normal; font-size:14px; color:#383843;}
+h1, h2, h3, h4, h5, h6 {font-weight: bold; display: inline;}
+ol, ul, li {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';}
+table {border-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100%;}
+button {margin: 0; padding: 0; border: 0; font: inherit; color: inherit; background:transparent; overflow:visible; cursor: pointer; line-height: 1;}
+a {text-decoration: none !important; cursor: pointer; color: #383843; vertical-align: baseline;}
+a:hover {text-decoration: underline; cursor:pointer;}
+legend, caption {display: none;}
+img {border: 0; vertical-align: middle;}
+address, i, em {font-style: normal;}
+
+/* form */
+textarea {resize: vertical; font: inherit; overflow-y: auto;}
+input, select, optgroup {margin: 0; padding: 0; color:inherit; font: inherit; vertical-align: middle; line-height: normal; }
+button, select {text-transform: none;}
+
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {-webkit-appearance: none; cursor: pointer;}
+button:disabled, input:disabled {cursor: default;}
+button::-moz-focus-inner,
+input::-moz-focus-inner {border: 0; padding: 0;}
+input[type='checkbox'],
+input[type="radio"] {padding: 0; box-sizing: border-box;}
+input[type='search'] {-webkit-appearance: none;}
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {-webkit-appearance: none;}
+input::-ms-clear {display: none;}
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {display: none;}
+input[type="checkbox"]{ width: 14px; height: 14px;  cursor: pointer; }
+.irOnly {overflow: hidden; position: absolute !important; top: -99999px; left: 0; width: 0; height: 0; font-size: 0; line-height:0; text-indent: -999px;}

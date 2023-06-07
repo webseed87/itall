@@ -1,0 +1,111 @@
+@charset "utf-8";
+#mentoWarp{position:relative; width: 100%;}
+/*탑 제목 버튼 영역*/
+#mentoWarp .topTitle{ position:relative; width: 100%; background-color: #8F2A2A; color:#fff; padding: 80px; text-align: center;}
+#mentoWarp .topTitle p{font-size: 26px;}
+#mentoWarp .topTitle h3{font-size: 60px; margin-top: 30px; font-family: 'SpoqaB'; display: block;}
+#mentoWarp .topTitle .yellow{color:#FFA928}
+#mentoWarp .topTitle .mentobtn{background-color: #FFA928; color: #fff; padding: 15px 30px; font-size: 24px; border-radius: 20px ; margin-top: 40px; display: inline-block;} 
+#mentoWarp .topTitle .mr{margin-right: 20px;}
+/*멘토링이란?*/
+#mentoWarp #mentoling{margin-top: 80px; position:relative; width: 1200px; margin: 0 auto; text-align: center;}
+#mentoWarp #mentoling h4{font-size: 36px; color: #E0462E; display: block; margin-top: 80px; font-family: 'SpoqaB';}
+#mentoWarp #mentoling p{font-size: 24px;}
+#mentoWarp #mentoling ul{margin-top: 50px; }
+#mentoWarp #mentoling ul li{background-color: #f9f9f9; width: 180px;  padding: 60px 0 20px 0;  margin-right: 20px; height: 200px; float: left; text-align: center;}
+#mentoWarp #mentoling ul li:last-child{margin-right: 0;}
+#mentoWarp #mentoling ul li:first-child{margin-left: 10px;}
+#mentoWarp #mentoling ul li p{font-size: 16px; text-align: center; margin-top: 20px;} 
+#mentoWarp #mentoling::after{content: ""; display: block; clear: both;}
+/*멘티 체크리스트*/
+#mentoWarp .menticheckList{border: 2px dashed #ccc; position:relative; background-image: url(../img/mentilist.png); background-repeat: no-repeat; background-position: right bottom; width: 1180px; margin: 0 auto; margin-top: 80px; border-radius: 30px; height: 800px; }
+#mentoWarp .menticheckList h4{background-color: #E0462E; color:#fff; border-radius: 30px; font-size: 24px; padding: 15px 60px; display: inline-block; position: absolute; top:-30px; left:50%; transform: translate(-50%, 0%);}
+#mentoWarp .menticheckList h5{font-size: 36px; font-family: 'SpoqaB'; margin-top: 80px; display: block; text-align: center;}
+#mentoWarp .menticheckList p{font-size: 18px; text-align: center;}
+#mentoWarp .menticheckList ul{margin-top: 50px;  margin-left: 140px;}
+#mentoWarp .menticheckList ul li{ font-size: 18px;  display: block; margin-bottom: 30px; line-height: 27px;  }
+#mentoWarp .menticheckList ul li::before{ margin-right: 20px; font-size: 24px;  display:inline-block; content: "\f058"; font-family: 'Font Awesome 6 free'; color: #E0462E;}
+#mentoWarp .menticheckList::after{content: ""; display: block; clear: both;}
+/*멘티 신청*/
+#mentoWarp .mentiask{  position: relative; margin-top: 80px; padding: 80px 0;   width: 100%;       background-color: #F8C857;}
+#mentoWarp .mentiask h4{font-size: 36px; color: #333; display: block; text-align: center; font-family: 'SpoqaB'; }
+#mentoWarp .mentiask .mentibtn{ background-color: #E0462E; color:#fff; border-radius: 20px;  font-size: 24px; padding: 10px 30px; display: block;  margin: 0 auto;  margin-top: 20px; margin-bottom: 50px;}
+#mentoWarp .mentiask ul{ width: 1200px;  display: flex; position: relative; margin: 0 auto;  }
+#mentoWarp .mentiask ul li{background-color: #fff; width: 280px;  padding: 50px 0 20px 0;  margin-right: 20px; height: 320px; border-radius: 30px; float: left; text-align: center;}
+#mentoWarp .mentiask ul li h5{color: #E0462E; font-size: 24px;}
+#mentoWarp .mentiask ul li p{margin-top: 30px; font-size: 16px;}
+#mentoWarp .mentiask ul li .btn{ background-color: #E0462E; color:#fff; border-radius: 10px;  font-size: 16px; margin-top: 60px;  padding: 10px 50px; }
+/*넌 혼자가 아니야 힐링콘서트*/
+#mentoWarp .notalone{ background-image: url(../img/mentobg.png); height: 670px; width: 100%; position: relative; background-position:center; margin: 0 auto; text-align: center;}
+#mentoWarp .notalone h4{font-size: 48px; font-family: 'SpoqaB'; margin-top: 80px; display: block;}
+#mentoWarp .heiling {background-color: #FEF4DD; position: relative; width: 100%; margin: 0 auto; text-align: center; padding: 80px 0 150px 0;}
+#mentoWarp .heiling p{font-size: 18px; }
+#mentoWarp .heiling h4{font-size: 36px; font-family: 'SpoqaB';  display: block;}
+#mentoWarp .heiling p.small{font-size: 16px; padding-top: 20px;}
+#mentoWarp .mentovideo {position: relative; margin: 0 auto; width: 1200px;  margin-top: -100px;}
+#mentoWarp .mentovideo .ml10{margin-left: 10px;}
+#mentoWarp .mentovideo .ml20{margin-left: 20px;}
+#mentoWarp .mentovideo .mentoTable{margin-top: 50px;}
+#mentoWarp .mentovideo .mentoTable{width: 1180px; font-size: 1rem; margin: 0 auto; margin-top: 50px;  }
+#mentoWarp .mentovideo .mentoTable tr th{border: 1px solid #ccc; padding: 10px; color: #fff; background-color: #E0462E;}
+#mentoWarp .mentovideo .mentoTable tr td{border: 1px solid #ccc; padding: 8px 10px; text-align:left; font-size: 14px; line-height: 2rem;}
+#mentoWarp .mentovideo .mentoTable tr td:first-child{background-color: #fff; text-align: center;}
+#mentoWarp .mentovideo  h5{ margin-left: 10px; border-bottom: 5px solid #F8C857; box-shadow: inset 0 -10px 0 #F8C857; font-size: 24px; font-family: 'SpoqaB'; margin-top: 30px; display: inline-block;}
+#mentoWarp .mentovideo  p{font-size: 16px; margin-top: 10px; margin-left: 10px;}
+/*멘토지원*/
+#mentoWarp #mentoask{background-image: url(../img/mentoaskbg.png); background-position: center; background-repeat: no-repeat; position: relative;  margin: 0 auto; margin-top: 80px; padding:50px 0; width: 100%; text-align: center;}
+#mentoWarp #mentoask h4{font-size: 36px; font-family: 'SpoqaB';  display: block; }
+#mentoWarp #mentoask p{font-size: 24px;}
+/*멘토 인터뷰*/
+#mentoWarp .interview{ position: relative; margin-top: 80px; width: 1180px; margin-left: 10px; margin-right: 10px;  margin: 0 auto; }
+#mentoWarp .interview h4{font-size: 24px; text-align: left;  margin-top: 50px; display: block;}
+#mentoWarp .slickslide {width: 1200px; overflow: hidden;}
+.slider { width: 100%; margin: 20px auto; }
+.slick-slide { margin: 0px 20px; }
+.slick-slide img {width: 100%;}
+/*멘토 체크리스트*/
+#mentoWarp .mentocheckList{border: 2px dashed #ccc; position:relative; background-image: url(../img/mentolist.png); background-repeat: no-repeat; background-position: left bottom; width: 1180px; margin: 0 auto; margin-top: 80px; border-radius: 30px; height: 800px; }
+#mentoWarp .mentocheckList h4{background-color: #E0462E; color:#fff; border-radius: 30px; font-size: 24px; padding: 15px 60px; display: inline-block; position: absolute; top:-30px; left:50%; transform: translate(-50%, 0%);}
+#mentoWarp .mentocheckList h5{font-size: 36px; font-family: 'SpoqaB'; margin-top: 80px; display: block; text-align: center;}
+#mentoWarp .mentocheckList p{font-size: 18px; text-align: center;}
+#mentoWarp .mentocheckList ul{margin-top: 50px;  margin-left:540px;}
+#mentoWarp .mentocheckList ul li{ font-size: 18px;  display: block; margin-bottom: 30px; line-height: 27px;  }
+#mentoWarp .mentocheckList ul li::before{ margin-right: 20px; font-size: 24px;  display:inline-block; content: "\f058"; font-family: 'Font Awesome 6 free'; color: #E0462E;}
+#mentoWarp .mentocheckList::after{content: ""; display: block; clear: both;}
+/*멘토 신청*/
+#mentoWarp .mentoask{  position: relative; margin-top: 80px; padding: 80px 0;   width: 100%;       background-color: #F8C857;}
+#mentoWarp .mentoask h4{font-size: 36px; color: #333; display: block; text-align: center; font-family: 'SpoqaB'; }
+#mentoWarp .mentoask .mentibtn{ background-color: #E0462E; color:#fff; border-radius: 20px;  font-size: 24px; padding: 10px 30px; display: block;  margin: 0 auto;  margin-top: 20px; margin-bottom: 50px;}
+#mentoWarp .mentoask ul{ width: 1200px;  display: flex; position: relative; margin: 0 auto;  }
+#mentoWarp .mentoask ul li{background-color: #fff; width: 380px;  padding: 50px 0 20px 0;  margin-right: 20px; height: 340px; border-radius: 30px; float: left; text-align: center;}
+#mentoWarp .mentoask ul li h5{color: #E0462E; font-size: 24px;}
+#mentoWarp .mentoask ul li p{margin-top: 20px; font-size: 16px; }
+#mentoWarp .mentoask ul li .btn{ background-color: #E0462E; color:#fff; border-radius: 10px;  font-size: 16px; margin-top: 60px;  padding: 10px 50px; }
+/*멘토가 된다면*/
+#mentoWarp .ifmento{margin-top: 80px; position:relative; width: 1200px; margin: 0 auto; text-align: center;}
+#mentoWarp .ifmento h4{font-size: 36px; color: #333; display: block;  margin-top: 80px; font-family: 'SpoqaB';}
+#mentoWarp .ifmento p{font-size: 24px;}
+#mentoWarp .ifmento ul{margin-top: 50px; }
+#mentoWarp .ifmento ul li{background-color: #f9f9f9; width: 180px;  padding: 40px 12px 20px 12px;  font-size: 14px; line-height: 1.8rem; margin-right: 20px; height: 230px; float: left; text-align: center;}
+#mentoWarp .ifmento ul li h5{color: #E0462E; font-size: 24px;}
+#mentoWarp .ifmento ul li:last-child{margin-right: 0;}
+#mentoWarp .ifmento ul li:first-child{margin-left: 10px;}
+#mentoWarp .ifmento ul li p{font-size: 16px; text-align: center; margin-top: 20px;} 
+#mentoWarp .ifmento::after{content: ""; display: block; clear: both;}
+/*라이브 멘토 현장*/
+#mentoWarp .mentonow{margin-top: 80px; position:relative; width: 1200px; margin: 0 auto; text-align: center; }
+#mentoWarp .mentonow .tabContentsWrap { width: 100%; height: auto; margin: 0 auto; max-width: 1200px; padding-top: 50px ; position: relative;}
+#mentoWarp .mentonow .tabContentsWrap .tabmenu{position:relative;     border: 1px solid #ccc; margin-bottom: 40px;}
+#mentoWarp .mentonow .tit{font-size: 36px; display: block; line-height: 40px; color:#333; margin-top:80px; font-family: 'SpoqaB';}
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .list{overflow:hidden;}
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .list li{float:left; border-right: 1px solid #ccc; padding: 10px; width: 50%; font-size: 18px; height: 50px; text-align: center;  }
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .list li:last-child{float:left; border-right: none; }
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .list li.ison .btntab{font-weight:bold;  color:#fff;}
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .list li:first-child.ison{ background-color:#E0462E; }
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .list li:last-child.ison{ background-color:#E0462E; }
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .list li.ison{ background-color:#E0462E; }
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .list .btntab{font-size:14px;}
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .contarea {float: left; border-top:2px solid #E0462E; border-left: 1px solid #ccc; border-right: 1px solid #ccc;   border-bottom: 1px solid #ccc;}
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .contarea .cont{display:none; position:relative; top:0px; left:0;  word-break:keep-all;  font-size: 16px; line-height: 1.6rem;   color:#333;  width:1200px; }
+#mentoWarp .mentonow .tabContentsWrap .tabmenu .contarea .cont .mentonowslide{position: relative; margin-top: 30px;}
+#mentoWarp .mentonow::after{content: ""; display: block; clear: both;}

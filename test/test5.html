@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+  
+.circle-chart__circle {
+
+transform: rotate(-90deg); 
+transform-origin: center; 
+}
+
+.circle-chart__circle.active{animation: circle-chart-fill 2s reverse;  }
+
+
+@keyframes circle-chart-fill {
+to { stroke-dasharray: 0 100; }
+}
+
+.grid {
+position: relative;
+margin: 0 auto;
+width: 1200px;
+margin-top: 1200px;
+}
+
+@media (min-width: 31em) {
+.grid {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+    </style>
+</head>
+
+<body>
+  
+        <div class="grid">
+            
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#e47d0e" />
+                  <stop offset="100%" stop-color="#f3d350" />
+                </linearGradient>
+              
+          <svg class="circle-chart" viewbox="0 0 40 40" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="4" fill="none" cx="20" cy="20" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#f3d350" stroke-width="3" stroke-dasharray="90" stroke-linecap="round" fill="none" cx="20" cy="20" r="15.91549431" />
+            <g class="circle-chart__info">
+             
+            </g>
+          </svg>
+        </div>
+      
+      
+
+
+      <script>
+		// 시소
+
+		var isScrolling = false;
+
+		window.addEventListener("scroll", throttleScroll, false);
+
+		function throttleScroll(e) {
+			if (isScrolling == false) {
+				window.requestAnimationFrame(function () {
+					scrolling(e);
+					isScrolling = false;
+				});
+			}
+			isScrolling = true;
+		}
+
+		document.addEventListener("DOMContentLoaded",
+			scrolling,
+			false);
+
+
+		var firstBox = document.querySelector(".circle-chart__circle");
+
+
+		function scrolling(e) {
+
+			if (isPartiallyVisible(firstBox)) {
+				firstBox.classList.add("active");
+
+
+			} else {
+				firstBox.classList.remove("active");
+			}
+
+
+		}
+
+		function isPartiallyVisible(el) {
+			var elementBoundary = el.getBoundingClientRect();
+
+			var top = elementBoundary.top;
+			var bottom = elementBoundary.bottom;
+			var height = elementBoundary.height;
+
+			return ((top + height >= 0) &&
+				(height + window.innerHeight >= bottom));
+		}
+
+		function isFullyVisible(el) {
+			var elementBoundary = el.getBoundingClientRect();
+
+			var top = elementBoundary.top;
+			var bottom = elementBoundary.bottom;
+
+			return ((top >= 0) && (bottom <= window.innerHeight));
+		}
+	</script>
+</body>
+
+</html>

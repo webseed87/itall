@@ -1,0 +1,83 @@
+@charset "utf-8";
+#combineWarp{position:relative; width: 100%; background-size: contain;}
+#combineWarp .toptext{ position:relative; width: 1200px; margin: 0 auto;  text-align: center;  margin-top: 80px;}
+#combineWarp .toptext h3{font-size: 36px; font-family: 'SpoqaB'; display: block;}
+#combineWarp .toptext P{font-size: 18px;}
+#combineWarp .map{position:relative; width: 1200px; margin: 0 auto;  text-align: center;  margin-top: 50px;}
+#combineWarp .map .maptext{width: 700px; float: left;  position: relative; text-align: left;}
+#combineWarp .map .maptext h4{font-size: 24px; font-family: 'SpoqaB'; display: block; }
+#combineWarp .map .maptext ul.mapul{margin-top: 20px;}
+#combineWarp .map .maptext p.subtext{font-size: 16px; line-height: 2rem; color: #333; margin-top: 20px;}
+#combineWarp .map .maptext ul.mapul li{display: inline-block; padding: 6px; border-radius: 10px; background-color: #efefef; margin: 4px; cursor: pointer;}
+#combineWarp .map .maptext ul.process{margin-top: 40px;}
+#combineWarp .map .maptext ul.process li{margin: 20px 0; height: 120px;}
+#combineWarp .map .maptext ul.process li .cercle1{border-radius: 50%; float: left; font-size: 18px; width: 120px; height: 120px; background-color: #fff;  color:#0083ae; text-align: center; padding: 35px 0; box-shadow: 0 10px 30px 0 rgba(0, 131, 147, 0.4);}
+#combineWarp .map .maptext ul.process li .cercle{border-radius: 50%; float: left; font-size: 18px; width: 120px; height: 120px; background-color: #0083ae;  color:#fff; text-align: center; padding: 35px 0; box-shadow: 0 10px 30px 0 rgba(0, 131, 147, 0.4);}
+#combineWarp .map .maptext ul.process li .protext{margin: 50px 40px; float: left; font-size: 16px; width: 480px;}
+#combineWarp .map .maptext ul.process li::after{position: relative; bottom: 0px; left:55px; font-family: 'Font Awesome 6 free'; font-weight: 900; content: '\f0d7'; color:#0083ae; display: block; clear: both;}
+#combineWarp .map .maptext ul.process li:last-child::after{content: "";}
+#combineWarp .map .mappin{width: 500px; height: 600px;  position: relative; float: left; background-image: url(../img/map.png); background-repeat: no-repeat; z-index: 1; background-position: center top;}
+.mappin .pin { z-index: 10;  width: 30px; cursor: pointer;  height: 30px;  border-radius: 50% 50% 50% 0;  background: #0083ae; position: relative;   transform: rotate(-45deg);  margin: -20px 0 0 -20px;}
+.mappin .pin:after {content: ""; width: 14px; height: 14px; z-index: 100; position: absolute; margin: 8px -6px; background: #efefef; border-radius: 50%;}
+.mappin .pulse { background: #fff; border-radius: 50%;height: 14px; width: 14px; position: relative;  margin: 11px 0px 0px -12px; transform: rotateX(55deg); z-index: -2;}
+.mappin .pulse:after {content: ""; border-radius: 50%; height: 40px;  width: 40px; position: absolute; margin: -13px 0 0 -18px; animation: pulsate 1s ease-out;  animation-iteration-count: infinite;
+ opacity: 0; box-shadow: 0 0 1px 2px #0083ae; animation-delay: 1.1s;}
+.mappin .pin span { transform: rotate(45deg); opacity: 0;  color: #fff;  width: 120px; padding: 5px 0; background: #444; text-align: center; position: absolute; border-radius: 6px; z-index: 10000;transition: opacity 0.5s; }
+.mappin .pin  span:after {content: ''; border-width: 5px; position: absolute; border-style: solid; z-index: 100000; }
+.mappin .pin:hover span { opacity: 1;}
+.mappin .pin .T-st{ left: 0;   bottom: 20%;  z-index: 10000 !important;}
+.mappin .pin .T-st:after{left: 45%; bottom: -20px; display: none;}
+.mappin .pin .R-st { top: 20px; left: 80%;  }
+.mappin .pin .R-st:after{ top: 20px; right: 80%; display: none;}
+.mappin .pin .L-st { top: -50px;   left: -115px;}
+.mappin .pin .L-st:after{  bottom: -10px; left: 100%; display: none;  }
+ .mappin .pin1{left: 123px; top: 74px;}
+ .mappin .pulse1{left: 123px; top: 74px;}
+ .mappin .pin2{left: 151px; top: 70px;}
+ .mappin .pulse2{left: 151px; top: 70px;}
+ .mappin .pin3{left: 184px; top: 5px;}
+ .mappin .pulse3{left: 184px; top: 5px;}
+ .mappin .pin4{left: 206px; top:25px;}
+ .mappin .pulse4{left: 206px; top:25px;}
+ .mappin .pin5{left: 240px; top: 36px;}
+ .mappin .pulse5{left: 240px; top:36px;}
+ .mappin .pin6{left: 292px; top: -11px;}
+ .mappin .pulse6{left: 292px; top: -11px;} 
+ .mappin .pin7{left: 203px; top: 32px;}
+ .mappin .pulse7{left: 203px; top: 32px;}
+ .mappin .pin8{left: 323px; top: 35px;}
+ .mappin .pulse8{left: 323px; top: 35px;}
+ .mappin .pin9{left: 177px; top: 278px;}
+ .mappin .pulse9{left: 177px; top: 278px;}
+ .mappin .pin10{left: 182px; top: 50px;}
+ .mappin .pulse10{left: 182px; top: 50px;}
+ .mappin .pin11{left: 381px; top:52px;}
+ .mappin .pulse11{left: 381px; top:52px;}
+ .mappin .pin12{left: 163px; top: 58px;}
+ .mappin .pulse12{left: 163px; top: 58px;}
+ #combineWarp .map::after{content: ""; display: block; clear: both;}
+ @keyframes pulsate {
+    0% {
+      transform: scale(0.1, 0.1);
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      transform: scale(1.2, 1.2);
+      opacity: 0;
+    }
+  }
+  
+#combineWarp .concert{position: relative; width: 1200px; margin: 0 auto; margin-top: 80px; text-align: center;}
+#combineWarp .concert h3{font-size: 36px; display: block; font-family: 'SpoqaB'; }
+#combineWarp .concert h4{font-size: 24px; display: block; font-family: 'SpoqaB'; }
+#combineWarp .concert .concertTable{margin-top: 50px;}
+#combineWarp .concert .concertTable{width: 1180px; font-size: 1rem; margin: 0 auto; margin-top: 50px;  }
+#combineWarp .concert .concertTable tr:nth-child(2n){background-color: #e6f1f4;}
+#combineWarp .concert .concertTable tr th{border: 1px solid #ccc; padding: 10px; color: #fff; background-color: #0083ae;}
+#combineWarp .concert .concertTable tr td{border: 1px solid #ccc; padding: 8px 10px; text-align:left; font-size: 14px; line-height: 2rem;}
+#combineWarp .concert  button{background-color:#0083ae; border-radius: 15px; color: #fff; margin-top: 40px; padding: 15px 20px; font-size: 18px;}

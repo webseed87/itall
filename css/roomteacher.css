@@ -1,0 +1,75 @@
+﻿#roomteacherwarp {max-width: 800px; width: 100%; position: relative; margin: 0 auto; padding: 0 15px 50px 15px;}
+@media (min-width:801px){
+#roomteacherwarp .toptitle{height: 240px; text-align: center; background-image: url(../img/teacherTitlebg.png); background-repeat: no-repeat; background-position: center; max-width: 800px; width: 100%; position: relative; margin: 0 auto;}
+#roomteacherwarp .toptitle h1{font-size: 36px; padding-top: 50px; text-align: center; display: block; font-family:  'SpoqaB'; }
+#roomteacherwarp .teacher{background-color: #f9f9f9; border-radius: 20px; margin-top: 40px; height: 50px; position: relative; max-width: 800px; width: 100%;}
+#roomteacherwarp .teacher .roomteacher{background-color: #B11623; color: #fff; padding: 16px 30px; width: 30%; float: left; border-top-left-radius: 20px;  border-bottom-left-radius: 20px;}
+#roomteacherwarp .teacher .name { width: 70%; float: left; padding: 16px 30px;}
+#roomteacherwarp .text{margin-top: 15px; margin-left: 10px;}
+#roomteacherwarp .text .block{width: 13px; display: inline-block;}
+#roomteacherwarp .teacher .img{position:absolute;  right: 0; top: -20px;}
+#roomteacherwarp .toptitle .reserch{background-color: #fff; border: 1px solid #B11623; color: #B11623; border-radius: 20px; font-size: 18px; text-align: center; display: inline-block; margin: 40px 0px; padding: 15px 60px;}
+#roomteacherwarp .teacher::after{content: ""; display: block; clear: both;}
+#roomteacherwarp .comment{max-width: 800px; width: 100%;  text-align: center; position: relative; border-radius: 30px; border: 1px solid #ccc;  margin: 0 auto; margin-top: 20px; margin-bottom: 0;} 
+#roomteacherwarp .comment h3{background-color: #B11623; color: #fff; display: block; border-top-left-radius: 20px;  border-top-right-radius: 20px; padding: 20px; font-size: 18px;}
+#roomteacherwarp .comment .ptext{padding: 20px; height: 200px; overflow-y: auto; text-align: left; word-break: keep-all; line-height: 1.8rem;}
+#roomteacherwarp .subtitle{border-radius: 20px; margin-top: 40px; height: 50px; position: relative; width: 100%;}
+#roomteacherwarp .subtitle h2{text-align: center; display: block; font-family:  'SpoqaB'; font-size: 30px;}
+#roomteacherwarp .subtitle .img1{position:absolute;  left: 20px; top: 6px; z-index: 10000;}
+.tabContentsWrap .tabmenu .list li{float:left; background-color: #f9f9f9;  border-radius: 50%; margin-right: 14px; padding: 15px 10px; width: 50px;  height: 50px; text-align: center;  }
+.tabContentsWrap { width: 100%; height: auto; margin: 0 auto; max-width: 800px; padding: 50px 0; position: relative;}
+
+}
+@media (max-width:800px){
+#roomteacherwarp .toptitle{height: 240px; text-align: center; background-image: url(../img/teacherTitlebgM.png); background-repeat: no-repeat; background-position: top; max-width: 800px; width: 100%; position: relative; margin: 0 auto;}
+#roomteacherwarp .toptitle h1{font-size: 36px; padding-top: 70px; text-align: center; display: block; font-family:  'SpoqaB'; }
+#roomteacherwarp .teacher{background-color: #f9f9f9; border-radius: 10px; margin-top: 40px; position: relative; max-width: 800px; width: 100%;}
+#roomteacherwarp .teacher .roomteacher{background-color: #B11623; color: #fff; padding: 10px 20px; width: 40%; float: left; border-top-left-radius: 20px;  border-bottom-left-radius: 20px;}
+#roomteacherwarp .teacher .name { width: 60%; float: left; padding: 10px 30px;}
+#roomteacherwarp .text{margin-top: 15px; margin-left: 10px; width: 80%; font-size: 12px;}
+#roomteacherwarp .text .block{width: 0px; display: inline-block;}
+#roomteacherwarp .teacher .img{position:absolute;  right: 0; top: -20px; width: 60px;}
+#roomteacherwarp .toptitle .reserch{background-color: #fff; border: 1px solid #B11623; color: #B11623; border-radius: 20px; font-size: 16px; text-align: center; display: inline-block; margin:30px 0px; padding: 10px 20px;}
+#roomteacherwarp .teacher::after{content: ""; display: block; clear: both;}
+#roomteacherwarp .comment{max-width: 800px; width: 100%; text-align: center; position: relative; border-radius: 30px; border: 1px solid #ccc;  margin: 0 auto; margin-top: 20px; margin-bottom: 0;} 
+#roomteacherwarp .comment h3{background-color: #B11623; color: #fff; display: block; border-top-left-radius: 20px;  border-top-right-radius: 20px; padding: 15px; font-size: 16px;}
+#roomteacherwarp .comment .ptext{padding: 15px; text-align: left; height: 190px; overflow-y: auto; word-break: keep-all; line-height: 1.5rem; font-size: 13px;}
+#roomteacherwarp .subtitle{border-radius: 20px; margin-top: 30px; height: 50px; position: relative; width: 100%;}
+#roomteacherwarp .subtitle h2{text-align: center; display: block; font-family:  'SpoqaB'; font-size: 30px;}
+#roomteacherwarp .subtitle .img1{position:absolute;  left: 20px; top: 18px; z-index: 10000; width:50px;}
+.tabContentsWrap .tabmenu .list li{float:left; background-color: #f9f9f9;  border-radius: 50%; margin-right: 10px;  padding: 15px 10px; width: 50px;  height: 50px; text-align: center;  }
+.tabContentsWrap .tabmenu .list li:nth-child(n+7):nth-child(-n+12){float:left; margin-top: 10px; background-color: #f9f9f9;  border-radius: 50%; margin-right: 10px;  padding: 15px 10px; width: 50px;  height: 50px; text-align: center;  }
+.tabContentsWrap { width: 100%; height: auto; margin: 0 auto; max-width: 800px; padding: 20px 0; position: relative;}
+
+}
+.ptext::-webkit-scrollbar {
+    width: 6px;
+  }
+  .ptext::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .ptext::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #ccc;
+  }
+  .ptext::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+  }
+
+.tabContentsWrap .tabmenu{position:relative;    margin-bottom: 40px;}
+.titred{font-size: 24px; display: block; line-height: 40px; color:#333; margin-bottom: 20px;}
+ .tabContentsWrap .tabmenu .list{overflow:hidden;}
+ .tabContentsWrap .tabmenu .list li:last-child{float:left; border-right: none; }
+ .tabContentsWrap .tabmenu .list li.ison .btntab{font-weight:bold;  color:#fff;}
+ .tabContentsWrap .tabmenu .list li:first-child.ison{ background-color:#B11623; }
+ .tabContentsWrap .tabmenu .list li:last-child.ison{ background-color:#B11623; }
+ .tabContentsWrap .tabmenu .list li.ison{ background-color:#B11623; }
+  .tabContentsWrap .tabmenu .list .btntab{font-size:14px;}
+ .tabContentsWrap .tabmenu .contarea {float: left; margin-bottom: 30px;  }
+.tabContentsWrap .tabmenu .contarea .cont{display:none; position:relative; top:0px; left:0; margin-bottom: 30px; word-break:keep-all;  font-size: 16px; line-height: 1.6rem;   color:#333;  max-width:800px; }
+ .tabContentsWrap .tabmenu .contarea .cont .tabtext{background-color: #f9f9f9; padding: 20px; border: none; box-sizing: border-box; max-width: 800px;}
+ .tabContentsWrap .tabmenu .contarea .cont .imgbox{background-color: #fff; margin-top: 20px; padding: 0 10px;}
+.tabContentsWrap .tabmenu .contarea .cont .imgbox .rounded{width: 220px; height: 118px; margin: 6px;}
+ 
+.fontred{color: #B11623; font-weight: bold;}

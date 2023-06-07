@@ -1,0 +1,141 @@
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    display: inline-block;
+}
+.submenu_wrap {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-top: 74px;
+    font-size: 14px;
+    position: fixed;
+    background: #fff;
+}
+
+.submenu {
+    width: 690px;
+    height: 43px;
+    margin: 0 auto;
+}
+
+.submenu_home {
+    background: #8e2a2a;
+    width: 60px;
+    height: 43px;
+    text-align: center;
+    line-height: 44px;
+    display: inline-block;
+}
+
+.submenu_title {
+    width: 180px;
+    height: 43px;
+    display: inline-block;
+    text-align: center;
+}
+
+.submenu_subtitle {
+    display: inline-block;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+
+/*드롭다운*/
+.dropbtnsub {
+    width: 200px;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownsub {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownsub-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.dropdownsub-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownsub-content a:hover {
+    font-weight: 700;
+}
+
+.dropdownsub:hover .dropdownsub-content {
+    display: block;
+}
+
+.dropdownsub:hover .dropbtnsub {
+    font-weight: 700;
+}
+
+.table-wrapper .board-top {
+    text-align: left;
+    line-height: unset;
+}
+
+.board-top h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.table-wrapper .board-top ul {
+    text-align: left;
+}
+
+.table-wrapper .board-top ul li {
+    line-height: 1.5;
+}
+
+.table-wrapper table {
+    text-align: center;
+    margin: 30px auto;
+    border-top: 3px solid #E0462E;
+}
+
+.table-wrapper table td,
+table th {
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+.board-top_wrap02 .board-top h3 span {
+    font-weight: bolder;
+    color: #E0462E;
+}
+
+.board-top_wrap02 {
+    width: 100%;
+    background: #fff no-repeat center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#point-wrap {
+    width: 1200px;
+    margin:80px  auto ;
+    font-family: spoqaR;
+    font-size: 16px;
+}

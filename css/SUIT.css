@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'SUITB';
+    font-weight: 700;
+    src: local('SUIT Bold'),
+    url('../font/SUIT-Bold.woff2') format('woff2'),
+    url('../font/SUIT-Bold.woff') format('woff'),
+    url('../font/SUIT-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'SUITM';
+    font-weight: 500;
+    src: local('SUIT Medium'),
+    url('../font/SUIT-Medium.woff2') format('woff2'),
+    url('../font/SUIT-Medium.woff') format('woff'),
+    url('../font/SUIT-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SUITR';
+    font-weight: 400;
+    src: local('SUIT Regular'),
+    url('../font/SUIT-Regular.woff2') format('woff2'),
+    url('../font/SUIT-Regular.woff') format('woff'),
+    url('../font/SUIT-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SUITL';
+    font-weight: 300;
+    src: local('SUIT Light'),
+    url('../font/SUIT-Light.woff2') format('woff2'),
+    url('../font/SUIT-Light.woff') format('woff'),
+    url('../font/SUIT-Light.ttf') format('truetype');
+}
+

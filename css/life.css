@@ -1,0 +1,98 @@
+@charset "utf-8";
+#lifeWarp{position:relative; width: 100%;}
+/*스파르타 생활관리*/
+#lifeWarp .sparta{ position:relative; width: 1200px; margin: 0 auto;  margin-top: 80px; text-align: center;}
+#lifeWarp .sparta h3{font-size: 36px; font-family: 'SpoqaB'; line-height: 3rem;}
+#lifeWarp .sparta p{font-size: 16px; line-height: 1.6rem; margin-top: 30px;}
+#lifeWarp .sparta p.top{color: #E0462E;}
+/*스파르타 생활관리 스와이퍼 부분*/
+#lifeWarp .lifebanner {position:relative; width: 100%;   margin: 0 auto; overflow: hidden;}
+#lifeWarp .lifebanner .swiper-wrapper{ width: 100%; height:560px; margin-top: 100px;  }
+#lifeWarp .lifebanner .swiper-wrapper .swiper-slide{ width: 900px; height: 560px; position: relative; top: 40px;   }
+#lifeWarp .lifebanner .swiper-wrapper .swiper-slide-active .inner{ opacity: 1; }
+#lifeWarp .lifebanner .swiper-wrapper .swiper-slide .inner::before,#contentsWarp .itallvr .swiper-wrapper .swiper-slide .inner::after{content: ""; display: block; width: 100%; height: 100%; position: absolute; top:0; left:0; opacity:0;  background-color: #fff;}
+#lifeWarp .lifebanner .swiper-wrapper .swiper-slide-prev .inner{ opacity: 0.5;  filter: grayscale(100%); }
+#lifeWarp .lifebanner .swiper-wrapper .swiper-slide-next .inner{ opacity: 0.5;  filter: grayscale(100%);}
+#lifeWarp .lifebanner  .swiper-wrapper .swiper-slide .inner{ width: 100%; padding: 40px 0;  height: 100%; text-align: center; background-color: #FFF1D7;  transition: 1s; }
+#lifeWarp .lifebanner .swiper-wrapper .swiper-slide .inner  h5{font-size: 30px; margin-top: 15px; margin-bottom: 20px; display: block; font-family: 'SpoqaB';} 
+#lifeWarp .lifebanner .swiper-wrapper .swiper-slide .inner .img{width: 400px; height: 280px; margin-top: 30px; }
+#lifeWarp .lifebanner .swiper-wrapper .swiper-slide .inner .mr20{margin-right: 20px;}
+#lifeWarp .lifebanner .swiper-wrapper .swiper-slide .inner  p{font-size: 16px; line-height: 1.5rem;}
+#lifeWarp .moreview{position: relative; width: 1200px; margin: 0 auto; text-align: center; margin-top: 40px;}
+#lifeWarp .moreview button{background: #E0462E; color: #fff; border-radius: 50px; padding: 25px 100px; font-size: 18px;}
+.swiper-button-next{right:18% !important;}
+.swiper-button-prev{left:18% !important;}
+.swiper-button-next .arrow-icon, .swiper-button-prev .arrow-icon { font-size: 3rem;  color: #333;}
+.swiper-pagination { position: relative; top: 40px; right: 10px; width: 100%; left: auto !important; margin: 0;}
+.swiper-pagination-bullet { padding: 0; border-radius: 30px !important; width: auto; height: 50px !important; width: 140px !important; text-align: center; line-height: 50px; font-size: 16px; color:#ccc !important; opacity: 1; background: rgba(0,0,0,0.2);}
+.swiper-pagination-bullet-active { color:#fff !important; background: #E0462E !important; }
+/*오감관리*/
+#lifeWarp .fivesenses{ position:relative; width: 1200px; margin: 0 auto;  margin-top: 80px; text-align: center;}
+#lifeWarp .fivesenses h3{font-size: 36px; font-family: 'SpoqaB'; line-height: 3rem;}
+#lifeWarp .fivesenses p{font-size: 16px; line-height: 1.6rem; margin-top: 30px;}
+#lifeWarp .fivesenses p.top{color: #E0462E;}
+#lifeWarp .fivesensesmenu{position:relative;  width: 1200px; margin-top: 80px;  margin-bottom: 40px; margin: 0 auto;}
+#lifeWarp .fivesensesmenu .list{overflow:hidden; display: flex; flex-direction: row; margin-top: 40px;}
+#lifeWarp .fivesensesmenu .list li{ display: flex;  justify-content: center;  align-items: center;  background-color: #F7F7F7; border-radius: 50%;  padding: 10px; width:200px;  height:200px; text-align: center; margin-right: 40px;  }
+#lifeWarp .fivesensesmenu .list li a{color:#ccc; fill:rgb(255,255,255);}
+#lifeWarp .fivesensesmenu .list li p{margin-top: 20px;}
+#lifeWarp .fivesensesmenu .list li .small{font-size: 12px; margin-top: 0;}
+#lifeWarp .fivesensesmenu .list li:last-child{float:left;  }
+#lifeWarp .fivesensesmenu .list li  .btn {fill:rgb(194,194,194);}
+#lifeWarp .fivesensesmenu .list li.is_on .btn{font-weight:bold; fill:rgb(255,255,255); }
+#lifeWarp .fivesensesmenu .list li.is_on  a{ font-weight:bold; color: #fff; }
+#lifeWarp .fivesensesmenu .list li.is_on{ background-color:#E0462E;  }
+#lifeWarp .fivesensesmenu .list .btn{font-size:16px; }
+#lifeWarp .fivesensesmenu .contarea {position: relative;   }
+#lifeWarp .fivesensesmenu .contarea .cont{display:none; position:relative;    background:#fff;   width:1140px;  margin: 0 30px; }
+#lifeWarp .fivesensesmenu .contarea .cont h5{color:#E0462E; font-size: 36px; font-family: 'SpoqaB'; margin-top: 30px; display: block;}
+#lifeWarp .fivesensesmenu .contarea .cont p{font-size: 16px; line-height: 1.6rem;}
+#lifeWarp .fivesensesmenu .contarea .cont p.big{font-size: 24px; font-family: 'SpoqaB'; line-height: 3rem;}
+#lifeWarp .fivesensesmenu .contarea .cont ul { position: relative;  width:1140px; margin-top: 40px;}
+#lifeWarp .fivesensesmenu .contarea .cont ul li{ width: 33.33%; float: left;}
+#lifeWarp .fivesensesmenu .contarea .cont ul li h6{display: block; color: #E0462E; font-size: 36px; font-family: 'SpoqaB'; margin-bottom: 20px;}
+#lifeWarp .fivesensesmenu .contarea .cont ul li h6::after{content: ""; width: 86px; height:3px; background-color: #E0462E; position: relative; display: block; bottom: 26px; left:100px}
+#lifeWarp .fivesensesmenu .contarea .cont ul li p.big{font-size: 24px; font-family: 'SpoqaB'; line-height: 3rem;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.five { position: relative;  width:1140px; margin-top: 40px;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.five li{ width:20%; float: left;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.five li img{width: 100%; height: auto;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.five li h6{display: block; color: #E0462E; font-size: 36px; font-family: 'SpoqaB'; margin-bottom: 20px;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.five li h6::after{content: ""; width: 56px; height:3px; background-color: #E0462E; position: relative; display: block; bottom: 26px; left:80px}
+#lifeWarp .fivesensesmenu .contarea .cont ul.five li p.big{font-size: 18px; font-family: 'SpoqaB'; line-height: 3rem; text-align: center;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.two { position: relative;  width:1140px; margin-top: 40px;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.two li{ width:50%; float: left;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.two li img{width: 100%; height: auto;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.two li img.taste{width: 24%; padding: 0px 20px;  vertical-align: middle;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.two li img.taste1{width: 24%; padding: 0px 20px;  vertical-align: top;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.two li h6{display: block; color: #E0462E; font-size: 36px; font-family: 'SpoqaB'; margin-bottom: 20px;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.two li h6::after{content: ""; width: 156px; height:3px; background-color: #E0462E; position: relative; display: block; bottom: 26px; left:80px}
+#lifeWarp .fivesensesmenu .contarea .cont ul.two li p.big{font-size: 24px; font-family: 'SpoqaB'; line-height: 3rem; text-align: center;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.two li p.small{font-size: 18px; width: 70%; display: inline-block;  line-height: 2rem; text-align: left;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.four { position: relative;  width:1140px; margin-top: 40px;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.four li{ width:25%; float: left;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.four li img{width: 100%; height: auto;}
+#lifeWarp .fivesensesmenu .contarea .cont  .button{background-color: #E0462E; color: #fff; border-radius:10px; padding: 5px 10px;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.four li h6{display: block; color: #E0462E; font-size: 36px; font-family: 'SpoqaB'; margin-bottom: 20px;}
+#lifeWarp .fivesensesmenu .contarea .cont ul.four li h6::after{content: ""; width: 86px; height:3px; background-color: #E0462E; position: relative; display: block; bottom: 26px; left:80px}
+#lifeWarp .fivesensesmenu .contarea .cont ul.four li p.big{font-size: 18px; font-family: 'SpoqaB'; line-height: 3rem; text-align: left;}
+#lifeWarp .fivesensesmenu .contarea::after{content: ""; display: block; clear: both;}
+#lifeWarp .fivesensesvideo{position:relative; width: 100%; margin: 0 auto;  margin-top: 80px; text-align: center; background-color: #f9f9f9; padding: 80px 0;}
+#lifeWarp .fivesensesvideo h5{display: block; font-size: 30px; font-family: 'SpoqaB'; line-height: 3rem; margin-bottom: 30px;}
+#lifeWarp .fivesensesvideo .mr20{margin-right: 20px;}
+/* 순공시간 */
+#lifeWarp .sungong{ position: relative; width: 100%;   text-align: center; background-color: #FEF2F2; padding: 80px 0;}
+#lifeWarp .sungong h3{font-size: 36px; font-family: 'SpoqaB'; line-height: 2rem; display: block;}
+#lifeWarp .sungong p{font-size: 16px; line-height: 1.6rem; margin-top:20px; margin-bottom: 50px;}
+#lifeWarp .sungong p.top{color: #E0462E; margin-bottom: 10px;}
+#lifeWarp .sungong .sungongbox h4{font-size: 24px; font-family: 'SpoqaB'; line-height: 2rem; display: block; margin: 30px 0; }
+#lifeWarp .sungong .sungongbox{background-color: #fff; border-radius: 30px; padding: 20px 30px;  width: 1200px; margin: 0 auto;}
+#lifeWarp .sungong .sungongbox ul {  width:1140px; display: flex;  justify-content:space-between;}
+#lifeWarp .sungong .sungongbox ul li{ width: 25%;}
+#lifeWarp .sungong .sungongbox ul li::after{border-right:1px solid #ccc;}
+#lifeWarp .sungong .sungongbox ul li .heavy{font-size: 36px; font-family: 'SpoqaB'; color:#000; }
+#lifeWarp .sungong .sungongbox ul li .small{font-size: 14px;  color:#999; line-height: 28px;}
+#lifeWarp .sungong .sungongvideo{ position:relative;   width:1200px;  margin: 0 auto; }
+#lifeWarp .sungong .sungongvideo p.small{font-size: 12px; color: #ccc; text-align: left; line-height: 1.2rem;} 
+#lifeWarp .sungong .sungongvideo p{font-size: 30px; font-family: 'SpoqaB'; line-height: 2rem; display: block; margin: 40px 0;}
+#lifeWarp .sungong .sungongvideo .mr20{margin-right: 20px;}
+.callcenterWarp {margin-top: 0;}

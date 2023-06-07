@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* 회원가입 약관 동의 */
+#register {width: 100%; position: relative;}
+#register .topMenu { width: 100%;  display: flex; border-bottom: 1px solid #ccc; justify-content: center; padding: 40px 0;  }
+#register .topMenu .logo{ background-image: url(../img/itallstlogo.png); width: 154px; height: 24px;background-repeat: no-repeat;  }
+#register .topMenu .logo .h1logo{font-size: 0; text-indent: -99999;}
+#register .subTitle {position: relative; margin: 0 auto; width: 650px; margin-top: 80px;  }
+#register .subTitle .sublogo{  position: relative; margin: 0 auto; width: 100%;  text-align: center;}
+#register .subTitle .sublogo h2{font-size: 24px; }
+#register .subTitle p{display: block; color:#666666; text-align: center; font-size: 14px; line-height: 30px;}
+#register .agreeform{ position: relative; margin: 0 auto; width: 500px; margin-top: 50px;}
+#register .agreeform .agreeall{ float: left; width: 500px; border-bottom: 1px solid #ccc; padding: 10px;}
+#register  label{font-size: 14px; line-height: 24px; margin-left: 5px;}
+#register .agreeform .agreeall .input {font-size: 14px; margin-bottom: 10px; line-height: 1.8; color: #666666; border:1px solid #ccc; display: block; border-radius: 10px; background: #fff; height: 50px; width: 470px; padding: 0 10px 0 20px;}
+#register .agreeform .agreecheck{ float: left; width: 500px; padding: 10px; margin-top: 10px;}
+#register .agreeform .agreecheck > div {margin-bottom: 15px;}
+#register .agreeform .agreecheck .content { float: right;} 
+#register .agreeform .agreecheck .agreeform{width: 500px; text-align: center; background:#E0462E; border-radius: 10px; color:#fff; padding: 10px; font-size:16px;  border: none; height: 50px;}
+input {accent-color: #E0462E; font-size: 14px;}
+.fontred{color:#e0462e !important;}
+/*레이어 팝업 디자인*/
+.popWrap{position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.1); font-size:0; text-align:center; z-index: 1000000;}
+.popWrap:after{display:inline-block; height:100%; vertical-align:middle; content:'';}
+.popWrap .popInner{display:inline-block; padding:0px; background:#fff; width:600px; height:auto; vertical-align:middle; font-size:15px; position: relative;}
+.popWrap .popInner h3{font-size: 24px; margin: 40px 0 20px 0px; display: block;}
+.popWrap .popInner > div{background-color: #f9f9f9; height: 480px; width: 570px;  overflow:auto; padding: 15px; position: relative; margin: 0 auto; text-align: left; font-size: 12px;}
+.popWrap .popInner .shot{ background-color: #fff; height: 180px; width: 570px;  border: 1px solid #ccc;  overflow:auto; padding:0px; position: relative; margin: 0 auto; text-align: left; font-size: 13px;}
+.popWrap .popInner .shot .title{background-color: #f9f9f9; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; padding: 10px 5px; float: left; width: 30%;}
+.popWrap .popInner .shot .content{background-color: #fff; border-bottom: 1px solid #ccc; padding:  10px 5px; float: right; width:70%;}
+.popWrap .popInner .btnClose{position: absolute; top: 20px; right: 20px; color:#333; font-size: 24px; clear: both;}
+.popWrap .popInner .confrim{width: 600px; text-align: center; background:#E0462E; border-bottom-left-radius: 10px; clear: both; border-bottom-right-radius: 10px; color:#fff; padding: 10px; font-size:16px;  border: none; height: 50px;}
+.popWrap .height60{height: 60px;}
+/* 회원가입 폼 */
+#registerform {width: 100%; position: relative; margin: 0 auto;}
+#registerform .topMenu { width: 100%;  display: flex; border-bottom: 1px solid #ccc; justify-content: center; padding: 40px 0;  }
+#registerform .topMenu .logo{ background-image: url(../img/itallstlogo.png); width: 154px; height: 24px;background-repeat: no-repeat;  }
+#registerform .topMenu .logo .h1logo{font-size: 0; text-indent: -99999;}
+#registerform .subTitle {position: relative; margin: 0 auto; width: 650px; margin-top: 80px;  }
+#registerform .subTitle .sublogo{  position: relative; margin: 0 auto; width: 100%;  text-align: center;}
+#registerform .subTitle .sublogo h2{font-size: 24px; }
+#registerform .subTitle p{display: block; color:#666666; text-align: center; font-size: 14px; line-height: 30px;}
+#registerform .searchBox{width: 800px; position: relative; margin: 0 auto; margin-top: 50px;}
+#registerform .searchBox ul{overflow: hidden; display: block;  border-top: 1px solid #333; border-bottom: 1px solid #ccc;}
+#registerform .searchBox li{float: left; margin-right: 10px; font-size:12px; font-weight: 100; padding:5px 0; border-bottom: 1px solid #ccc; width: 100%;} 
+#registerform .searchBox li:last-child{ border-bottom: none;}
+#registerform .searchBox li h4{font-size: 24px; line-height: 3rem;} 
+#registerform .searchBox li .contents{ font-size: 14px; margin-left: 60px;}
+#registerform .searchBox li p{font-size: 14px; line-height: 1.5rem; margin-left: 10px;}
+#registerform .searchBox li p.text{font-size: 14px; line-height: 2rem; margin-left: 10px;}
+#registerform .searchBox .ssTit{display: block; float: left; font-size:16px; padding:5px 10px; text-align:left; width: 170px; line-height: 40px;}
+#registerform .searchBox .fulltext{display: block; float: left; font-size:16px; padding:5px 10px; text-align:center; width: 600px; margin-left: 170px;}
+#registerform .searchBox .input{display: block; float: left; font-size:16px; padding:5px 10px; text-align:left; width: 600px;}
+#registerform .searchBox .input select{border-radius: 10px; border: 1px solid #ccc; width: 150px; height: 40px; padding:5px 10px; font-size: 14px; margin-left: 5px;}
+#registerform .searchBox .input .xsamll{border-radius: 10px; border: 1px solid #ccc; width: 150px; height: 30px; padding:5px 10px; font-size: 14px; margin-right: 5px;}
+#registerform .searchBox .input .samll{border-radius: 10px; border: 1px solid #ccc; width: 320px; height: 30px; padding:5px 10px; font-size: 14px;}
+#registerform .searchBox .input .full{border-radius: 10px; border: 1px solid #ccc; width: 97%; height: 30px; padding:5px 10px; font-size: 14px;}
+#registerform .searchBox .input p, #registerform .searchBox .input span, #registerform .searchBox .input label{color:#999; font-size: 13px; margin-top: 5px; margin-left: 5px;}
+#registerform .mt10{margin-top: 10px;}
+input:valid+button{background-color: #999; color:#fff; text-align: center; border-radius: 10px; padding:5px 10px; margin-left: 10px; width: 220px; height: 40px;}
+input:invalid+button{background-color: #E0462E; color:#fff; text-align: center; border-radius: 10px; padding:5px 10px; margin-left: 10px; width: 220px; height: 40px;}
+#registerform .searchBox .input .btnred{background-color: #E0462E; color:#fff; text-align: center; border-radius: 10px; padding:5px 10px; margin-left: 10px; width: 220px; height: 40px;}
+#registerform .floatright{float: right;}
+#registerform  input[type='radio']{margin:14px;}
+#registerform .font18{font-size: 18px;}
+#registerform .btnborderred{border: 1px solid #E0462E; border-radius: 10px; width: 600px; padding: 15px; color:#E0462E;}
+#registerform .registerbtn{background-color:  #E0462E; border-radius: 10px; width: 800px; padding: 20px; color:#fff; font-size: 16px; margin: 20px 0; text-align: center;}
+
+/* 회원가입 결과 */
+#registerResult{width: 100%; position: relative; margin: 0 auto;}
+#registerResult .topMenu { width: 100%;  display: flex; border-bottom: 1px solid #ccc; justify-content: center; padding: 40px 0;  }
+#registerResult .topMenu .logo{ background-image: url(../img/itallstlogo.png); width: 154px; height: 24px;background-repeat: no-repeat;  }
+#registerResult .topMenu .logo .h1logo{font-size: 0; text-indent: -99999;}
+#registerResult .subTitle {position: relative; margin: 0 auto; width: 650px; margin-top: 80px;  }
+#registerResult .subTitle .sublogo{  position: relative; margin: 0 auto; width: 100%;  text-align: center;}
+#registerResult .subTitle .sublogo h2{font-size: 24px; }
+#registerResult .subTitle p{display: block; color:#666666; text-align: center; font-size: 14px; line-height: 30px;}
+#registerResult .searchBox{width:600px; position: relative; margin: 0 auto; margin-top: 50px; border-top: 1px solid #333; }
+#registerResult .searchBox .ssTit{ float: left; font-size:16px; padding:5px 10px; text-align:left; width: 20%; line-height: 40px; border-bottom: 1px solid #ccc;}
+#registerResult .searchBox .contents{float: left; font-size:16px; padding:5px 10px; text-align:left; width:80%; line-height: 40px; border-bottom: 1px solid #ccc;}
+#registerResult .searchBox::after{clear: both; display: block; content: "";}
+#registerResult .btnWarp{ width: 600px; position: relative; margin: 0 auto; margin-top: 50px; }
+#registerResult .btnWarp .gologin{ border-radius: 10px; width: 46%; margin-right: 4%; float: left; padding: 15px; background-color:#E0462E; color:#fff;}
+#registerResult .btnWarp .gomain{ border-radius: 10px; width: 50%; padding: 15px; width: 50%; color:#fff; background-color: #888;}
